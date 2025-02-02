@@ -1,0 +1,5 @@
+# Generic for navigating to dir where repos are cloned
+alias CD_REPOS='cd /mnt/c/path/to/repo/dir'
+
+# Generic for cloning your repo using access tokens
+alias CLONE_REPO='git clone https://GIT_USER:ACCESS_TOKEN_VAL@YOUR_REPO_LINK.git'
