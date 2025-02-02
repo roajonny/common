@@ -4,6 +4,9 @@
 " Author(s) :       Jonathan Roa
 " 
 " Description :     Useful starting point for a .vimrc
+"                   
+"                   Replaces tabs w/ 4 spaces, displays line 
+"                   numbers, etc.
 " 
 " Revisions 
 " 
