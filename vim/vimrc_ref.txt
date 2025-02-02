@@ -1,5 +1,5 @@
-" File :            v_module_gen.py
-" Title :           v_module_gen
+" File :            vimrc_ref.txt
+" Title :           vimrc_ref
 " 
 " Author(s) :       Jonathan Roa
 " 
