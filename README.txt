@@ -1,4 +1,4 @@
-File :            README.txt
+
 Title :           README
 
 Author(s) :       Jonathan Roa
@@ -14,13 +14,13 @@ Date        Name            REV#        Description
 (02/02/25)  Jonathan Roa    1.2         Added bashrc ref
 
     This directory contains a variety of python (3.10.12)
-    helper scripts used to expedite RTL development
-
-    Also contains vimrc/bashrc templates which is are useful
-    starting points for environment setup
+    tools used to expedite RTL development, as well as 
+    vimrc/bashrc templates which are useful starting points
+    for environment setup
 
     Running list of tools:
-        - Module template generator      (verilog)
-        - Testbench generator            (verilog)
-        - FSM template generator         (verilog)
-        - D-flipflop generator           (verilog)
+        - Docs-as-code template generator   (sphinx)
+        - Module HDL template generator     (verilog)
+        - Testbench HDL generator           (verilog)
+        - FSM HDL generator                 (verilog)
+        - D-flipflop HDL generator          (verilog)
