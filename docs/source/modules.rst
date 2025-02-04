@@ -1,5 +1,5 @@
-Modules
-=======
+Design Modules
+==============
 
 This section contains info about modules
 

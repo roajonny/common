@@ -29,3 +29,6 @@ pip install -r ./requirements.txt
 
 # List the current installations
 pip list
+
+# Generate the HTML template
+sphinx-build ./docs/source ./docs/build

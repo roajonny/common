@@ -28,7 +28,7 @@ documentation for details.
    
 .. toctree::
    :maxdepth: 2
-   :caption: FPGA Design
+   :caption: Architecture
    :hidden:
 
    register_map
