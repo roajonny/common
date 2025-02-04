@@ -4,8 +4,7 @@
 # Author(s) :       Jonathan Roa
 # 
 # Description :     Generates the python virtual environment
-#                   for installing all sphinx-related package
-#                   dependencies
+#                   for working w/ Sphinx
 # 
 # Revisions 
 # 
@@ -14,15 +13,10 @@
 # (02/02/25)  Jonathan Roa    1.0         Initial Revision
 
 # Generate a directory for the virtual environment
-rm -rf .venv/
-mkdir .venv/
-cd .venv/
-
-# Generate the Python virtual environment locally
-python3 -m venv ./
+rm -rf .venv/ && python3 -m venv .venv/
 
 # Activate the virtual environment
-source ./bin/activate
+source ./.venv/bin/activate
 
 # PyPi package installations
 pip install sphinx
