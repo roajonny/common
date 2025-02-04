@@ -19,11 +19,13 @@ rm -rf .venv/ && python3 -m venv .venv/
 source ./.venv/bin/activate
 
 # PyPi package installations
-pip install sphinx
+# pip install sphinx
+# pip install sphinx-rtd-theme
+# pip install furo
 
 # If there is a requirements.txt file to install
 # all required packages w/ specific versions
-# pip install -r /path/to/requirements.txt
+pip install -r ./requirements.txt
 
 # List the current installations
-# pip list
+pip list
