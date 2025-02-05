@@ -12,6 +12,7 @@ Date        Name            REV#        Description
 (12/05/24)  Jonathan Roa    1.0         Initial Revision
 (01/29/25)  Jonathan Roa    1.1         Added D-FF (verilog)
 (02/02/25)  Jonathan Roa    1.2         Added bashrc ref
+(02/04/25)  Jonathan Roa    1.2         Added Sphinx doc gen
 
     This directory contains a variety of python (3.10.12)
     tools/scripts used to expedite RTL development, as well 
