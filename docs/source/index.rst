@@ -16,27 +16,27 @@ documentation for details.
    :caption: Project
    :hidden:
 
-   introduction
+   project/introduction
 
 .. toctree::
    :maxdepth: 2
    :caption: Requirements
    :hidden:
 
-   key_reqs
-   derived_reqs
+   requirements/key_reqs
+   requirements/derived_reqs
    
 .. toctree::
    :maxdepth: 2
    :caption: Architecture
    :hidden:
 
-   register_map
-   modules
+   architecture/register_map
+   architecture/modules
 
 .. toctree::
    :maxdepth: 2
    :caption: Onboarding
    :hidden:
 
-   how_to
+   onboarding/how_to
