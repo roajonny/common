@@ -32,10 +32,10 @@ This section enumerates BANK_0 registers
      - Name
      - Description
    * - 0x0
-     - REG_0_POKE
+     - BANK_0_REG_0_POKE
      - The first write register of BANK_0
    * - 0x4
-     - REG_1_POKE
+     - BANK_0_REG_1_POKE
      - The second write register of BANK_0
 
 BANK_0_REG_0_POKE
@@ -82,10 +82,10 @@ This section enumerates BANK_1 registers
      - Name
      - Description
    * - 0x0
-     - REG_0_PEEK
+     - BANK_1_REG_0_PEEK
      - The first read register of BANK_1
    * - 0x4
-     - REG_1_PEEK
+     - BANK_1_REG_1_PEEK
      - The second read register of BANK_1
 
 BANK_1_REG_0_PEEK
