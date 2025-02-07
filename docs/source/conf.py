@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'YOUR_FPGA_PROJECT'
-copyright = '2025, AUTHOR'
+project = 'Hardware-as-Software'
+copyright = '2025, Jonathan Roa'
 author = 'AUTHOR'
 release = '0.1'
 
