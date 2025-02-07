@@ -1,7 +1,7 @@
 Register Map
 ============
 
-This section enumerates the design banks and specifies the base addresses
+This section enumerates the design's banks and specifies base addresses
 
 .. list-table::
    :align: left
@@ -13,15 +13,15 @@ This section enumerates the design banks and specifies the base addresses
      - Description
    * - 0x00000000
      - BANK_0
-     - Provides control registers for the discombobulator mechanism
+     - Provides control
    * - 0x01000000
      - BANK_1
-     - Provides status registers for the discombobulator mechanism 
+     - Provides status
 
 BANK_0
 -------
 
-This section enumerates all of the registers in BANK_0
+This section enumerates BANK_0 registers
 
 .. list-table::
    :align: left
@@ -71,7 +71,7 @@ BANK_0_REG_1_POKE
 BANK_1
 -------
 
-This section enumerates all of the registers in BANK_0
+This section enumerates BANK_1 registers
 
 .. list-table::
    :align: left
