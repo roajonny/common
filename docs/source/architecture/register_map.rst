@@ -82,7 +82,7 @@ This section enumerates all of the registers in BANK_0
      - Name
      - Description
    * - 0x0
-     - REG_1_PEEK
+     - REG_0_PEEK
      - The first read register of BANK_1
    * - 0x4
      - REG_1_PEEK
