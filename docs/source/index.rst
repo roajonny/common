@@ -1,24 +1,22 @@
 A HW-as-SW Template
 ===================
 
-I decided to put this together for a few reasons, largely driven by
-frustrations towards development practices I've observed in various work
-environments:
+I decided to put this together for a few reasons, largely driven by the desire
+to improve the efficacy and quality-of-life of the FPGA development process:
 
-#. It shows the power of **tightly coupling a codebase w/ its documentation and
-   requirements,** creating a **Single-Source-of-Truth (SSOT)**
-#. It's presented in a tutorial format promoting a **modern, Git-based FPGA workflow**
+#. It promotes a **modern, Git-based FPGA workflow** presented in tutorial-format
    that fosters collaboration by encouraging code scalability and readability
-#. HW world **lacks the robust practices that are standard and commonplace in SW...**
-   this is an attempt to bridge that gap and push FPGA development practices
-   forward
+#. It shows the power of a **Single-Source-of-Truth (SSOT)** by tightly coupling a 
+   codebase to its documentation/requirements via a "Docs-as-Code" approach
+#. It attempts to push FPGA development practices forward by **leveraging SW tools
+   and methodology** that are standard, commonplace, and effective in the SW world
 
 Lastly, this serves as a convenient starting point template for new FPGA projects, 
 which others can easily leverage. 
 
-Hope this piques an interest, and thanks for reading!
+Hope this piques your interest, and thanks for reading!
 
-**-JR**
+*-JR*
 
 .. toctree::
    :maxdepth: 2
