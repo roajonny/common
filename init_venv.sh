@@ -23,9 +23,9 @@ source ./.venv/bin/activate
 # pip install sphinx-rtd-theme
 # pip install furo
 
-# If there is a requirements.txt file to install
-# all required packages w/ specific versions
-pip install -r ./requirements.txt
+# If there is a virtual environment package file to install
+# all dependencies w/ specified versions
+pip install -r ./pyvenv_packages.txt
 
 # List the current installations
 pip list
