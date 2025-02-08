@@ -21,7 +21,7 @@ If this piques your interest, let's get started!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Project
+   :caption: Example Project
    :hidden:
 
    project/introduction
