@@ -17,10 +17,10 @@ something like this:
    flowchart LR
        host[Host SW] <==> a[PCIe2MM Bridge]
        subgraph FPGA
-           a[PCIe2MM Bridge] <==> b[**FPGA Memory Map**]
+           a[PCIe2MM Bridge] <==> b[**Memory Map**]
            subgraph **Customer Request**
-               b[**FPGA Memory Map**] <==> c[**UART LVDS**]
-               b[**FPGA Memory Map**] <==> d[**UART RS422**]
+               b[**Memory Map**] <==> c[**UART LVDS**]
+               b[**Memory Map**] <==> d[**UART RS422**]
            end
        end
        c[**UART LVDS**]  ==> e[UUT]
