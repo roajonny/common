@@ -15,12 +15,13 @@ something like this:
 .. mermaid::
 
    flowchart LR
+       host[Host SW] <==> a[PCIe2MM Bridge]
        subgraph FPGA
-           A[PCIe2MM Bridge] ==> B[FPGA Memory Map]
-           subgraph Customer Request
-               B[FPGA Memory Map] ==> C[UART LVDS]
-               B[FPGA Memory Map] ==> D[UART RS422]
+           a[PCIe2MM Bridge] <==> b[**FPGA Memory Map**]
+           subgraph **Customer Request**
+               b[**FPGA Memory Map**] <==> c[**UART LVDS**]
+               b[**FPGA Memory Map**] <==> d[**UART RS422**]
            end
        end
-       C[UART LVDS]  <==> E[DUT]
-       D[UART RS422] <==> E[DUT]
+       c[**UART LVDS**]  ==> e[UUT]
+       d[**UART RS422**] ==> e[UUT]
