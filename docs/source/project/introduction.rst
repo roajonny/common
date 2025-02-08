@@ -12,6 +12,8 @@ They've already developed and verified this hardware, and need designer
 engineers to design the UART logic as well as their controllers - it might look
 something like this:
 
+|
+
 .. mermaid::
 
    flowchart LR
