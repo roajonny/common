@@ -1,8 +1,8 @@
 Motivations
 ===========
 
-I had decided to put this together for a number of reasons, largely driven 
-by the desire to improve the efficacy and quality-of-life of the FPGA development 
+I had decided to put this together for a number of reasons, largely driven by
+the desire to improve the efficacy and quality-of-life of the FPGA development
 process:
 
 #. It promotes a **modern, Git-based FPGA workflow** presented in a wiki-format
