@@ -10,6 +10,7 @@ for, and should get its own section in the requirements documentation:
     :id: T_HITL
     :tags: tutorial
     :layout: clean_l
+    :status: na
     :collapse: true
 
     The FPGA needs to implement two UART interfaces targeting RS422 and LVDS, which
