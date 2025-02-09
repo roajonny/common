@@ -24,7 +24,8 @@ If this piques your interest, let's get started!
    :caption: Example Project
    :hidden:
 
-   project/introduction
+   project/synopsis
+   project/scope_of_work
 
 .. toctree::
    :maxdepth: 2
