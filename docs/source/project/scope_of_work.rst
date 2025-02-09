@@ -1,11 +1,6 @@
 Scope of Work
 =================
 
-The *Scope of Work* is a general description of what the customer is asking
-for, and should get its own section in the requirements documentation:
-
-|
-
 .. tutorial-project:: HITL FPGA Implementation
     :id: T_HITL
     :tags: tutorial
@@ -31,3 +26,12 @@ for, and should get its own section in the requirements documentation:
        end
        c[**UART LVDS**]  ==> e[UUT]
        d[**UART RS422**] ==> e[UUT]
+
+|
+
+.. note::
+   
+   The *Scope of Work* is a general description of what the customer is asking
+   for, and uses a Sphinx-Needs "object" to capture the information - this
+   object is important for generating the requirements traceability
+   visualization (more on this later).

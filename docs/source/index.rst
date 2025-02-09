@@ -11,11 +11,11 @@ process:
    codebase to its documentation and requirements lifecycle management via a 
    "Docs-as-Code" approach
 #. It attempts to push FPGA development practices forward by **leveraging SW tools
-   and methodology** that are robust, commonplace, and effective in the SW world
+   and methodology** that are effective, robust, and standard in the SW world
 #. It serves as a **convenient starting point template** for new FPGA projects, 
    which is intended to be simple to understand and straightforward to leverage
 
-If this piques your interest, let's get started!
+If you've cared enough to read this far, let's get started!
 
 *-JR*
 
@@ -32,8 +32,9 @@ If this piques your interest, let's get started!
    :caption: Requirements
    :hidden:
 
-   requirements/key_reqs
-   requirements/derived_reqs
+   requirements/high_level_reqs
+   requirements/low_level_reqs
+   requirements/traceability
    
 .. toctree::
    :maxdepth: 2
