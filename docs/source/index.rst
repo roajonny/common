@@ -35,6 +35,7 @@ If you've cared enough to read this far, let's get started!
    requirements/high_level_reqs
    requirements/low_level_reqs
    requirements/traceability
+   requirements/closure_status
    
 .. toctree::
    :maxdepth: 2

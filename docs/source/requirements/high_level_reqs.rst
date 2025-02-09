@@ -29,7 +29,7 @@ High-Level (Customer)
 
 .. req:: UART over LVDS
    :id: HL_002
-   :status: open
+   :status: in-progress
    :links: T_HITL
    :tags: comms; HL
 

@@ -89,7 +89,7 @@ Low-Level (Designer)
 
 .. req:: UART Baud Rate (LVDS)
    :id: LL_005
-   :status: open
+   :status: closed
    :links: HL_002
    :tags: comms; LL 
 
@@ -106,7 +106,7 @@ Low-Level (Designer)
 
 .. req:: UART Frame Format (LVDS)
    :id: LL_006
-   :status: open
+   :status: closed
    :links: HL_002
    :tags: comms; LL
 
@@ -137,7 +137,7 @@ Low-Level (Designer)
 
 .. req:: UART Frame Synchronization (LVDS)
    :id: LL_007
-   :status: open
+   :status: closed
    :links: HL_002
    :tags: comms; LL
 
@@ -148,7 +148,7 @@ Low-Level (Designer)
 
 .. req:: UART Control/Status (LVDS)
    :id: LL_008
-   :status: open
+   :status: in-progress
    :links: HL_002
    :tags: comms; LL
 

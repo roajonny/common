@@ -1,6 +1,6 @@
 Traceability Diagram
 ====================
 
-.. needflow:: Requirements Traceability
+.. needflow::
    :engine: graphviz
    :config: lefttoright, my_config
