@@ -48,15 +48,6 @@ html_title = 'Hardware-as-Software (v0.1)'
 needs_css = 'dark.css'
 
 # Needs object configuration
-needs_types = [
-    {
-        "directive": "tutorial-project",
-        "title": "Project",
-        "prefix": "P_",  # prefix for auto-generated IDs
-        "style": "rectangle", # style for the type in diagrams
-        "color": "#BFD8D2", # color for the type in diagrams
-    }
-]
 needs_types = [dict(directive="req", title="Requirement", prefix="R_", color="#BFD8D2", style="node"),
                dict(directive="spec", title="Specification", prefix="S_", color="#FEDCD2", style="node"),
                dict(directive="impl", title="Implementation", prefix="I_", color="#DF744A", style="node"),
@@ -67,11 +58,11 @@ needs_types = [dict(directive="req", title="Requirement", prefix="R_", color="#B
                # Custom
                dict(directive="tutorial-project", title="Project", prefix="P_", color="#BFD8D2", style="rectangle"),
            ]
-need_extra_links = [
-  {
-    "option": "tutorial_required_by",
-    "incoming": "requires",  # text to describe incoming links
-    "outgoing": "required by",  # text to describe outgoing links
-    "style": "#00AA00"  # color for the link in diagrams
-  }
+
+# Enforces requirement status values
+needs_statuses = [
+    dict(name="open", description="Nothing done yet"),
+    dict(name="in-progress", description="Someone is working on it"),
+    dict(name="closed", description="Work is done and implemented"),
+    dict(name="na", description="Not applicable"),
 ]
