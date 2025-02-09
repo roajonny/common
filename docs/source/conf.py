@@ -46,3 +46,23 @@ html_title = 'Hardware-as-Software (v0.1)'
 # Also required by sphinx-needs to render objects properly but not explained
 # that well in the install procedure
 needs_css = 'dark.css'
+
+# Needs object configuration
+needs_types = [
+    {
+        "directive": "tutorial-project",
+        "title": "Project",
+        "prefix": "P_",  # prefix for auto-generated IDs
+        "style": "rectangle", # style for the type in diagrams
+        "color": "#BFD8D2", # color for the type in diagrams
+    }
+]
+
+need_extra_links = [
+  {
+    "option": "tutorial_required_by",
+    "incoming": "requires",  # text to describe incoming links
+    "outgoing": "required by",  # text to describe outgoing links
+    "style": "#00AA00",  # color for the link in diagrams
+  },
+]
