@@ -29,6 +29,7 @@ else:
 extensions = [
     'sphinxcontrib.mermaid',
     'sphinxcontrib.plantuml',
+    'sphinx.ext.graphviz',
     'sphinx_needs',
 ]
 
@@ -66,3 +67,22 @@ needs_statuses = [
     dict(name="closed", description="Work is done and implemented"),
     dict(name="na", description="Not applicable"),
 ]
+
+# Configures how requirements traceability flowchart gets rendered if the
+# graphviz engine is used
+needs_graphviz_styles = {
+    "my_config": {
+        "graph": {
+            "rankdir": "LR",
+            "bgcolor": "transparent",
+        },
+        "node": {
+            "fontname": "sans-serif",
+            "fontsize": 10,
+        },
+        "edge": {
+            "color": "#57ACDC",
+            "fontsize": 10,
+        },
+    }
+}
