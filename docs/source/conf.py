@@ -29,7 +29,7 @@ else:
 extensions = [
     'sphinxcontrib.mermaid',
     'sphinxcontrib.plantuml',
-    'sphinx_needs'
+    'sphinx_needs',
 ]
 
 templates_path = ['_templates']
@@ -57,12 +57,21 @@ needs_types = [
         "color": "#BFD8D2", # color for the type in diagrams
     }
 ]
+needs_types = [dict(directive="req", title="Requirement", prefix="R_", color="#BFD8D2", style="node"),
+               dict(directive="spec", title="Specification", prefix="S_", color="#FEDCD2", style="node"),
+               dict(directive="impl", title="Implementation", prefix="I_", color="#DF744A", style="node"),
+               dict(directive="test", title="Test Case", prefix="T_", color="#DCB239", style="node"),
+               # Kept for backwards compatibility
+               dict(directive="need", title="Need", prefix="N_", color="#9856a5", style="node"),
 
+               # Custom
+               dict(directive="tutorial-project", title="Project", prefix="P_", color="#BFD8D2", style="rectangle"),
+           ]
 need_extra_links = [
   {
     "option": "tutorial_required_by",
     "incoming": "requires",  # text to describe incoming links
     "outgoing": "required by",  # text to describe outgoing links
-    "style": "#00AA00",  # color for the link in diagrams
-  },
+    "style": "#00AA00"  # color for the link in diagrams
+  }
 ]
