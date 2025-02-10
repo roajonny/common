@@ -71,7 +71,7 @@ needs_statuses = [
 # Configures how requirements traceability flowchart gets rendered if the
 # graphviz engine is used
 needs_graphviz_styles = {
-    "my_config": {
+    "basic_config": {
         "graph": {
             "rankdir": "LR",
             "bgcolor": "transparent",
