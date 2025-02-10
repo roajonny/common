@@ -1,5 +1,5 @@
-Coverage Schedule
-=================
+Functional Coverage
+===================
 
 .. mermaid::
 

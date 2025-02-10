@@ -1,5 +1,5 @@
-Low-Level (Designer)
-====================
+Low-Level / Derived
+===================
 
 .. needtable::
    :columns: id; title; tags; status
@@ -10,10 +10,13 @@ Low-Level (Designer)
 
 .. note::
    
-   *Low-Level Requirements* are less important for the customer and more
-   important for the design team, where the technical requirements
-   / verification criteria is established and performed with traceability to
-   the high-level (customer) requirements
+   *Low-Level Requirements* are most important for the design team, where the
+   technical requirements / verification criteria is established and performed
+   with traceability to the high-level (customer) requirements
+
+   *Derived Requirements* could be *Key Requirements* which need to be
+   further elaborated and specified before they're useful from a digital
+   design / verification perspective
 
 |
 

@@ -36,7 +36,7 @@ If you've cared enough to read this far, let's get started!
    requirements/low_level_reqs
    requirements/traceability
    requirements/closure_status
-   requirements/coverage_schedule
+   requirements/functional_coverage
    
 .. toctree::
    :maxdepth: 2

@@ -1,5 +1,5 @@
-High-Level (Customer)
-=====================
+High-Level / Key
+================
 
 .. needtable::
    :columns: id; title; tags; status
@@ -12,7 +12,10 @@ High-Level (Customer)
    
    *High-Level Requirements* are the customer requirements which serve as the
    "handshake" between the customer and the design team about what the product
-   is supposed to do
+   is unambiguously supposed to do
+
+   *Key Requirements* could be requirements that are received from a system
+   specification which need to be flowed down to FPGA requirements proper
 
 |
 
