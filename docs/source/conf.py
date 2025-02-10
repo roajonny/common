@@ -70,6 +70,7 @@ needs_statuses = [
 
 # Configures how requirements traceability flowchart gets rendered if the
 # graphviz engine is used
+graphviz_output_format = 'svg'
 needs_graphviz_styles = {
     "basic_config": {
         "graph": {
