@@ -14,4 +14,5 @@ Read the detailed overview of the inquiry in the :doc:`scope_of_work`.
 .. note::
    
    The *Synopsis* section is where a (very) high-level overview of the project can
-   be written, to give context to those being onboarded to the project
+   be written, to give context to all applicable personnel who may know nothing
+   about it
