@@ -33,6 +33,5 @@ Scope of Work
 .. note::
    
    The *Scope of Work* is a general description of what the customer is asking
-   for, and uses a Sphinx-Needs "object" to capture the information - this
-   object is important for generating the requirements traceability
-   visualization (more on this later).
+   for - a Sphinx-Needs "object" is created to capture the information and is
+   the root of the :doc:`../requirements/traceability`
