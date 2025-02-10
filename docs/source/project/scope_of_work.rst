@@ -15,6 +15,7 @@ Scope of Work
 
 .. mermaid::
 
+   %%{init: {'theme':'dark'}}%%
    flowchart LR
        host[Host SW] <==> a[PCIe2MM Bridge]
        subgraph FPGA
