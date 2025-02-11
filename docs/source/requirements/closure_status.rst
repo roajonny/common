@@ -10,3 +10,10 @@ Closure Status
    type == 'req' and status == 'open'
    type == 'req' and status == 'in-progress'
    type == 'req' and status == 'closed'
+
+|
+
+.. note::
+   
+   Pie charts are a useful graphic to give stakeholders birds-eye visibility to
+   into the current state of development

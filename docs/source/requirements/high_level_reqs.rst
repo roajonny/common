@@ -17,6 +17,13 @@ High-Level / Key
    *Key Requirements* could be requirements that are received from a system
    specification which need to be flowed down to FPGA requirements proper
 
+   Regardless of what nomenclature convention is adopted for a project, both
+   likely have flowdown to their respective complementary requirements in the
+   :doc:`low_level_reqs` section
+
+High-Level / Key (Full Descriptions)
+------------------------------------
+
 |
 
 .. req:: UART over RS422
@@ -25,8 +32,9 @@ High-Level / Key
    :links: T_HITL
    :tags: comms; HL
 
-   The FPGA will provide a UART w/ an additional frame-synchronization signal targeting an external RS422 IC which
-   software-controllable over PCI-Express
+   The FPGA *shall* provide a UART w/ an additional frame-synchronization signal
+   targeting an external RS422 IC which is controllable by software over
+   PCI-Express
 
 |
 
@@ -36,5 +44,6 @@ High-Level / Key
    :links: T_HITL
    :tags: comms; HL
 
-   The FPGA will provide a UART w/ an additional frame-synchronization signal targeting an external LVDS IC which
-   software-controllable over PCI-Express
+   The FPGA *shall* provide a UART w/ an additional frame-synchronization signal
+   targeting an external LVDS IC which is controllable by software over
+   PCI-Express

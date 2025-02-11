@@ -8,8 +8,8 @@ Scope of Work
     :status: na
     :collapse: true
 
-    The FPGA needs to implement two UART interfaces targeting RS422 and LVDS, which
-    are accessible/controllable by host software over PCI-Express
+    The FPGA needs to implement two UART interfaces over external RS422 and
+    LVDS ICs, which are controllable by host software over PCI-Express
 
 |
 
@@ -29,6 +29,9 @@ Scope of Work
        d[**UART RS422**] ==> e[UUT]
 
 |
+
+The :doc:`../requirements/high_level_reqs` section captures the customer's
+high-level needs in requirements format.
 
 .. note::
    

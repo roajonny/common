@@ -15,9 +15,18 @@ process:
 #. It serves as a **convenient starting point template** for new FPGA projects, 
    which is intended to be simple to understand and straightforward to leverage
 
-If you've cared enough to read this far, let's get started!
+If you've cared enough to read this far, let's jump to the
+:doc:`basics/overview` and get started!
+
 
 *-JR*
+
+.. toctree::
+   :maxdepth: 2
+   :caption: The Basics
+   :hidden:
+
+   basics/overview
 
 .. toctree::
    :maxdepth: 2

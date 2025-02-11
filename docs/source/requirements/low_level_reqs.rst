@@ -18,6 +18,12 @@ Low-Level / Derived
    further elaborated and specified before they're useful from a digital
    design / verification perspective
 
+   A :doc:`traceability` is helpful for visualizing the hierarchy of
+   requirements
+
+Low-Level / Derived (Full Descriptions)
+---------------------------------------
+
 |
 
 .. req:: UART Baud Rate (RS422)
