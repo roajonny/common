@@ -47,7 +47,13 @@ Low-Level / Derived (Full Descriptions)
 
       .. tab:: Verification Method
 
-         INSERT VERIFICATION METHOD
+         Analysis: verified by simulation
+         
+         |
+
+         Verification *shall* be considered complete when simulation
+         demonstrates the UART achieves a bit period within a +/- 5% for each
+         baud rate
 
 |
 
@@ -86,7 +92,13 @@ Low-Level / Derived (Full Descriptions)
 
       .. tab:: Verification Method
 
-         INSERT VERIFICATION CRITERIA
+         Analysis: verified by simulation
+
+         |
+
+         Verification *shall* be considered complete when simulation
+         demonstrates correct frame format over 100 consecutive loopback
+         transmissions
           
 |
 
@@ -105,7 +117,12 @@ Low-Level / Derived (Full Descriptions)
 
       .. tab:: Verification Method
 
-         INSERT VERIFICATION CRITERIA
+         Analysis: verified by simulation
+
+         |
+
+         Verification *shall* be considered complete when simulation
+         demonstrates the frame synchronization is within the +/- 2ms margin
 
 |
 
@@ -124,7 +141,13 @@ Low-Level / Derived (Full Descriptions)
 
       .. tab:: Verification Method
 
-         INSERT VERIFICATION CRITERIA
+         Analysis: verified by simulation
+
+         |
+
+         Verification *shall* be considered complete when simulation
+         demonstrates register writes/reads occur on a 4-byte boundary starting
+         from the base address
 
 |
 
@@ -149,7 +172,13 @@ Low-Level / Derived (Full Descriptions)
 
       .. tab:: Verification Method
 
-         INSERT VERIFICATION METHOD
+         Analysis: verified by simulation
+
+         |
+         
+         Verification *shall* be considered complete when simulation
+         demonstrates the UART achieves a bit period within a +/- 5% for each
+         baud rate
 
 |
 
@@ -188,7 +217,13 @@ Low-Level / Derived (Full Descriptions)
 
       .. tab:: Verification Method
 
-         INSERT VERIFICATION CRITERIA
+         Analysis: verified by simulation
+
+         |
+
+         Verification *shall* be considered complete when simulation
+         demonstrates correct frame format over 100 consecutive loopback
+         transmissions
 
 |
 
@@ -207,7 +242,12 @@ Low-Level / Derived (Full Descriptions)
 
       .. tab:: Verification Method
 
-         INSERT VERIFICATION CRITERIA
+         Analysis: verified by simulation
+
+         |
+
+         Verification *shall* be considered complete when simulation
+         demonstrates the frame synchronization is within the +/- 2ms margin
 
 |
 
@@ -226,4 +266,10 @@ Low-Level / Derived (Full Descriptions)
 
       .. tab:: Verification Method
 
-         INSERT VERIFICATION CRITERIA
+         Analysis: verified by simulation
+
+         |
+
+         Verification *shall* be considered complete when simulation
+         demonstrates register writes/reads occur on a 4-byte boundary starting
+         from the base address
