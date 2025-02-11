@@ -21,8 +21,8 @@ Functional Coverage
    * "We didn't think about that"
 
    These two are, by definition, hard to time-box and conceptually malleable as
-   management risks during project planning, and materialize as technical risks
-   during development
+   management risks during project planning, and later materialize as technical
+   risks during development
 
-   Presenting estimates in such a fashion helps compartmentalize a design into
-   phases, and buffers for these occasions
+   Presenting estimates in such a fashion helps compartmentalize the
+   development into phases, and buffers for these occasions
