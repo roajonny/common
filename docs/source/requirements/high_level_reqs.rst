@@ -32,9 +32,17 @@ High-Level / Key (Full Descriptions)
    :links: T_HITL
    :tags: comms; HL
 
-   The FPGA *shall* provide a UART w/ an additional frame-synchronization signal
-   targeting an external RS422 IC which is controllable by software over
-   PCI-Express
+   .. tabs::
+
+      .. tab:: Description
+   
+        The FPGA *shall* provide a UART w/ an additional frame-synchronization
+        signal targeting an external RS422 IC which is controllable by software
+        over PCI-Express
+
+      .. tab:: Verification Method
+
+        Traceable to *Low-Level / Derived* requirements verification
 
 |
 
@@ -44,6 +52,14 @@ High-Level / Key (Full Descriptions)
    :links: T_HITL
    :tags: comms; HL
 
-   The FPGA *shall* provide a UART w/ an additional frame-synchronization signal
-   targeting an external LVDS IC which is controllable by software over
-   PCI-Express
+   .. tabs::
+
+      .. tab:: Description
+   
+        The FPGA *shall* provide a UART w/ an additional frame-synchronization
+        signal targeting an external LVDS IC which is controllable by software
+        over PCI-Express
+
+      .. tab:: Verification Method
+
+        Traceable to *Low-Level / Derived* requirements verification

@@ -32,14 +32,22 @@ Low-Level / Derived (Full Descriptions)
    :links: HL_001
    :tags: comms; LL 
 
-   The FPGA *shall* provide a UART w/ programmable baud rate for the following
-   rates:
+   .. tabs::
 
-   #. 115.2K (default)
-   #. 57.6K
-   #. 19.2K
-   #. 9600
-   #. 4800
+      .. tab:: Description
+
+         The FPGA *shall* provide a UART w/ programmable baud rate for the following
+         rates:
+
+         #. 115.2K (default)
+         #. 57.6K
+         #. 19.2K
+         #. 9600
+         #. 4800
+
+      .. tab:: Verification Method
+
+         INSERT VERIFICATION METHOD
 
 |
 
@@ -49,29 +57,37 @@ Low-Level / Derived (Full Descriptions)
    :links: HL_001
    :tags: comms; LL
 
-   The FPGA *shall* provide a UART w/ a frame format defined by the following:
+   .. tabs::
 
-   .. list-table::
-      :align: left
-      :widths: 10 50 10
-      :header-rows: 1
+      .. tab:: Description
 
-      * - Field
-        - Description
-        - Value
-      * - [10]
-        - UART stop bit
-        - 1
-      * - [9]
-        - UART parity bit (odd)
-        - D/C
-      * - [8:1]
-        - UART data
-        - D/C
-      * - [0]
-        - UART start bit
-        - 0
+         The FPGA *shall* provide a UART w/ a frame format defined by the following:
 
+         .. list-table::
+            :align: left
+            :widths: 10 50 10
+            :header-rows: 1
+
+            * - Field
+              - Description
+              - Value
+            * - [10]
+              - UART stop bit
+              - 1
+            * - [9]
+              - UART parity bit (odd)
+              - D/C
+            * - [8:1]
+              - UART data
+              - D/C
+            * - [0]
+              - UART start bit
+              - 0
+
+      .. tab:: Verification Method
+
+         INSERT VERIFICATION CRITERIA
+          
 |
 
 .. req:: UART Frame Synchronization (RS422)
@@ -80,8 +96,16 @@ Low-Level / Derived (Full Descriptions)
    :links: HL_001
    :tags: comms; LL
 
-   The FPGA *shall* provide a synchronization signal that aligns to the UART frame
-   with a +/- 2ms margin
+   .. tabs::
+
+      .. tab:: Description
+
+         The FPGA *shall* provide a synchronization signal that aligns to the UART frame
+         with a +/- 2ms margin
+
+      .. tab:: Verification Method
+
+         INSERT VERIFICATION CRITERIA
 
 |
 
@@ -91,8 +115,16 @@ Low-Level / Derived (Full Descriptions)
    :links: HL_001
    :tags: comms; LL
 
-   The FPGA *shall* provide 32-bit control/status registers which are aligned
-   on a 4-byte boundary for the UART interface, which is accessible by host software over PCI-Express
+   .. tabs::
+
+      .. tab:: Description
+
+         The FPGA *shall* provide 32-bit control/status registers which are aligned
+         on a 4-byte boundary for the UART interface, which is accessible by host software over PCI-Express
+
+      .. tab:: Verification Method
+
+         INSERT VERIFICATION CRITERIA
 
 |
 
@@ -102,14 +134,22 @@ Low-Level / Derived (Full Descriptions)
    :links: HL_002
    :tags: comms; LL 
 
-   The FPGA *shall* provide a UART w/ programmable baud rate for the following
-   rates:
+   .. tabs::
 
-   #. 115.2K 
-   #. 57.6K
-   #. 19.2K (default)
-   #. 9600
-   #. 4800
+      .. tab:: Description
+
+         The FPGA *shall* provide a UART w/ programmable baud rate for the following
+         rates:
+
+         #. 115.2K 
+         #. 57.6K
+         #. 19.2K (Default)
+         #. 9600
+         #. 4800
+
+      .. tab:: Verification Method
+
+         INSERT VERIFICATION METHOD
 
 |
 
@@ -119,28 +159,36 @@ Low-Level / Derived (Full Descriptions)
    :links: HL_002
    :tags: comms; LL
 
-   The FPGA *shall* provide a UART w/ a frame format defined by the following:
+   .. tabs::
 
-   .. list-table::
-      :align: left
-      :widths: 10 50 10
-      :header-rows: 1
+      .. tab:: Description
 
-      * - Field
-        - Description
-        - Value
-      * - [10]
-        - UART stop bit
-        - 1
-      * - [9]
-        - UART parity bit (odd)
-        - D/C
-      * - [8:1]
-        - UART data
-        - D/C
-      * - [0]
-        - UART start bit
-        - 0
+         The FPGA *shall* provide a UART w/ a frame format defined by the following:
+
+         .. list-table::
+            :align: left
+            :widths: 10 50 10
+            :header-rows: 1
+
+            * - Field
+              - Description
+              - Value
+            * - [10]
+              - UART stop bit
+              - 1
+            * - [9]
+              - UART parity bit (odd)
+              - D/C
+            * - [8:1]
+              - UART data
+              - D/C
+            * - [0]
+              - UART start bit
+              - 0
+
+      .. tab:: Verification Method
+
+         INSERT VERIFICATION CRITERIA
 
 |
 
@@ -150,8 +198,16 @@ Low-Level / Derived (Full Descriptions)
    :links: HL_002
    :tags: comms; LL
 
-   The FPGA *shall* provide a synchronization signal that aligns to the UART frame
-   with a +/- 2ms margin
+   .. tabs::
+
+      .. tab:: Description
+
+         The FPGA *shall* provide a synchronization signal that aligns to the UART frame
+         with a +/- 2ms margin
+
+      .. tab:: Verification Method
+
+         INSERT VERIFICATION CRITERIA
 
 |
 
@@ -161,5 +217,13 @@ Low-Level / Derived (Full Descriptions)
    :links: HL_002
    :tags: comms; LL
 
-   The FPGA *shall* provide 32-bit control/status registers which are aligned
-   on a 4-byte boundary for the UART interface, which is accessible by host software over PCI-Express
+   .. tabs::
+
+      .. tab:: Description
+
+         The FPGA *shall* provide 32-bit control/status registers which are aligned
+         on a 4-byte boundary for the UART interface, which is accessible by host software over PCI-Express
+
+      .. tab:: Verification Method
+
+         INSERT VERIFICATION CRITERIA

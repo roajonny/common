@@ -31,6 +31,7 @@ extensions = [
     'sphinxcontrib.plantuml',
     'sphinx.ext.graphviz',
     'sphinx_needs',
+    'sphinx_tabs.tabs'
 ]
 
 templates_path = ['_templates']
