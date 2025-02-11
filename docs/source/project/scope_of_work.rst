@@ -2,14 +2,23 @@ Scope of Work
 =================
 
 .. tutorial-project:: HITL FPGA Implementation
-    :id: T_HITL
-    :tags: tutorial
-    :layout: clean_l
-    :status: na
-    :collapse: true
+   :id: T_HITL
+   :tags: tutorial
+   :layout: clean_l
+   :status: na
+   :collapse: true
 
-    The FPGA needs to implement two UART interfaces over external RS422 and
-    LVDS ICs, which are controllable by host software over PCI-Express
+   .. tabs:: 
+
+      .. tab:: Description
+
+         The FPGA needs to implement two UART interfaces over external RS422 and
+         LVDS ICs, which are controllable by host software over PCI-Express
+
+      .. tab:: Flat-Sat (Image)
+
+         .. image:: images/esa_flat_sat.png
+            :width: 400
 
 |
 
