@@ -5,9 +5,9 @@ The client is working on a hardware-in-the-loop (HITL) testbed application for
 satellite avionics that **requires an FPGA on their custom test hardware to
 communicate with their Flat-Sat UUT.**
 
-They've already developed and verified this custom hardware, and need design
-engineers to implement the logic needed to stimulate the high-reliability
-bespoke interfaces.
+They've already developed and verified their custom hardware, and need design
+engineers to implement the logic needed to stimulate their UUT's
+high-reliability bespoke interfaces.
 
 Read the detailed overview of the inquiry in the :doc:`scope_of_work`.
 

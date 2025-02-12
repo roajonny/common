@@ -27,15 +27,19 @@ Scope of Work
    %%{init: {'theme':'dark'}}%%
    flowchart LR
        host[Host SW] <==> a[PCIe2MM Bridge]
-       subgraph FPGA
-           a[PCIe2MM Bridge] <==> b[**Memory Map**]
-           subgraph **Customer Request**
-               b[**Memory Map**] <==> c[**UART LVDS**]
-               b[**Memory Map**] <==> d[**UART RS422**]
+       subgraph Custom Hardware
+           subgraph FPGA
+               a[PCIe2MM Bridge] <==> b[**Memory Map**]
+               subgraph **Customer Request**
+                   b[**Memory Map**] <==> c[**UART**]
+                   b[**Memory Map**] <==> d[**UART**]
+               end
            end
+       c[**UART**] <==> e[UUT]
+       d[**UART**] <==> f[UUT]
        end
-       c[**UART LVDS**]  ==> e[UUT]
-       d[**UART RS422**] ==> e[UUT]
+   e[RS422 IC] <==> g[UUT]
+   f[LVDS IC]  <==> g[UUT]
 
 |
 
@@ -45,5 +49,5 @@ high-level needs in requirements format.
 .. note::
    
    The *Scope of Work* is a general description of what the customer is asking
-   for - a Sphinx-Needs "object" is created to capture the information and is
-   the root of the :doc:`../requirements/traceability`
+   for - this information is captured in a Sphinx-Needs "object" and is the
+   root of the :doc:`../requirements/traceability`
