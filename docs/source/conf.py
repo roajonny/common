@@ -29,6 +29,7 @@ else:
 extensions = [
     'sphinxcontrib.mermaid',
     'sphinxcontrib.plantuml',
+    'sphinxcontrib.wavedrom',
     'sphinx.ext.graphviz',
     'sphinx_needs',
     'sphinx_tabs.tabs'
