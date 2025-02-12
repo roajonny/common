@@ -7,7 +7,7 @@ Low-Level / Derived
    :show_filters:
 
 |
-
+      
 .. note::
    
    *Low-Level Requirements* are most important for the design team, where the
@@ -17,6 +17,10 @@ Low-Level / Derived
    *Derived Requirements* could be *Key Requirements* which need to be
    further elaborated and specified before they're useful from a digital
    design / verification perspective
+
+   Requirements at this level typically have *Specifications*, which are the
+   black-box behavioral models that design teams design to, and verification
+   teams generate their simulation harness + test cases
 
    A :doc:`traceability` is helpful for visualizing the hierarchy of
    requirements
@@ -44,6 +48,24 @@ Low-Level / Derived (Full Descriptions)
          #. 19.2K
          #. 9600
          #. 4800
+
+      .. tab:: Specification
+
+         Bit period, *T*, specified for each baud rate:
+         
+         #. 115.2K : T = 8.7us 
+         #. 57.6K  : T = 17.3us
+         #. 19.2K  : T = 52.1us
+         #. 9600   : T = 104.2us
+         #. 4800   : T = 208.3us
+
+         .. wavedrom::
+
+            { "signal" : [
+                    {                    node: '.A.B............'},
+                    { "name": 'uart_ch', "wave": 'x=.=.....|.=.=.x', "data": ['start', 'data', 'parity', 'stop'] }
+            ],
+            edge: ['A+B T']}
 
       .. tab:: Verification Method
 
@@ -90,6 +112,18 @@ Low-Level / Derived (Full Descriptions)
               - UART start bit
               - 0
 
+      .. tab:: Specification
+
+         For a UART frame with 8-bit data payload = 0x3:
+
+         .. wavedrom::
+
+            { "signal" : [
+                { "name": "uart_format",      "wave": 'x|x==.......==x', "data": ['start', 'data', 'parity', 'stop'] },
+                { "name": "uart_data",   "wave": 'x|10......1...x' },
+                { "name": "frame_sync",  "wave": 'x|01..........0' }
+            ]}
+
       .. tab:: Verification Method
 
          Analysis: verified by simulation
@@ -114,6 +148,18 @@ Low-Level / Derived (Full Descriptions)
 
          The FPGA *shall* provide a synchronization signal that aligns to the UART frame
          with a +/- 2ms margin
+
+      .. tab:: Specification
+
+         For a UART frame with 8-bit data payload = 0x3:
+
+         .. wavedrom::
+
+            { "signal" : [
+                { "name": "uart_format",      "wave": 'x|x==.......==x', "data": ['start', 'data', 'parity', 'stop'] },
+                { "name": "uart_data",   "wave": 'x|10......1...x' },
+                { "name": "frame_sync",  "wave": 'x|01..........0' }
+            ]}
 
       .. tab:: Verification Method
 
@@ -170,6 +216,24 @@ Low-Level / Derived (Full Descriptions)
          #. 9600
          #. 4800
 
+      .. tab:: Specification
+
+         Bit period, *T*, specified for each baud rate:
+         
+         #. 115.2K : T = 8.7us 
+         #. 57.6K  : T = 17.3us
+         #. 19.2K  : T = 52.1us
+         #. 9600   : T = 104.2us
+         #. 4800   : T = 208.3us
+
+         .. wavedrom::
+
+            { "signal" : [
+                    {                    node: '.A.B............'},
+                    { "name": 'uart_ch', "wave": 'x=.=.....|.=.=.x', "data": ['start', 'data', 'parity', 'stop'] }
+            ],
+            edge: ['A+B T']}
+
       .. tab:: Verification Method
 
          Analysis: verified by simulation
@@ -215,6 +279,18 @@ Low-Level / Derived (Full Descriptions)
               - UART start bit
               - 0
 
+      .. tab:: Specification
+
+         For a UART frame with 8-bit data payload = 0x3:
+
+         .. wavedrom::
+
+            { "signal" : [
+                { "name": "uart_format",      "wave": 'x|x==.......==x', "data": ['start', 'data', 'parity', 'stop'] },
+                { "name": "uart_data",   "wave": 'x|10......1...x' },
+                { "name": "frame_sync",  "wave": 'x|01..........0' }
+            ]}
+
       .. tab:: Verification Method
 
          Analysis: verified by simulation
@@ -239,6 +315,18 @@ Low-Level / Derived (Full Descriptions)
 
          The FPGA *shall* provide a synchronization signal that aligns to the UART frame
          with a +/- 2ms margin
+
+      .. tab:: Specification
+
+         For a UART frame with 8-bit data payload = 0x3:
+
+         .. wavedrom::
+
+            { "signal" : [
+                { "name": "uart_format",      "wave": 'x|x==.......==x', "data": ['start', 'data', 'parity', 'stop'] },
+                { "name": "uart_data",   "wave": 'x|10......1...x' },
+                { "name": "frame_sync",  "wave": 'x|01..........0' }
+            ]}
 
       .. tab:: Verification Method
 
