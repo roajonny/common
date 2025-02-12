@@ -62,7 +62,7 @@ Low-Level / Derived (Full Descriptions)
          .. wavedrom::
 
             { "signal" : [
-                    {                     node: '.A.B............'},
+                    {                      node: '.A.B............'},
                     { "name": 'uart_ch', "wave": 'x=.=.....|.=.=.x', "data": ['start', 'data', 'parity', 'stop'] }
             ],
             edge: ['A+B T']}
