@@ -10,11 +10,11 @@ Memory Map
      - Bank Name
      - Description
    * - 0x00000000
-     - `RS422`_
-     - Provides control and status for an RS422 UART
+     - `UART_CH1`_
+     - Provides control and status for UART_CH1
    * - 0x01000000
-     - `LVDS`_
-     - Provides control and status for an LVDS UART
+     - `UART_CH2`_
+     - Provides control and status for UART_CH2
    * - 0x02000000
      - RESERVED
      - RESERVED
@@ -32,8 +32,8 @@ Memory Map
 
 |
 
-RS422
------
+UART_CH1
+--------
 
 .. list-table::
    :align: left
@@ -45,23 +45,23 @@ RS422
      - Description
      - Default Value
    * - 0x0
-     - `RS422_UART_EN_POKE`_
+     - `UART_CH1_EN_POKE`_
      - Enables UART channel
      - 0x00000000
    * - 0x4
-     - `RS422_UART_RATE_POKE`_
+     - `UART_CH1_RATE_POKE`_
      - Selects UART rate
      - 0x00000000
    * - 0x8
-     - `RS422_UART_TX_FIFO_POKE`_
+     - `UART_CH1_TX_FIFO_POKE`_
      - Buffers UART TX data
      - 0x00000000
    * - 0xC
-     - `RS422_UART_TX_SEND_POKE`_
+     - `UART_CH1_TX_SEND_POKE`_
      - Enables UART transmission of FIFO data
      - 0x00000000
    * - 0x10
-     - `RS422_UART_RX_FIFO_PEEK`_
+     - `UART_CH1_RX_FIFO_PEEK`_
      - Buffers UART RX data
      - 0x00000000
 
@@ -75,8 +75,8 @@ RS422
 
 |
 
-RS422_UART_EN_POKE
-~~~~~~~~~~~~~~~~~~
+UART_CH1_EN_POKE
+~~~~~~~~~~~~~~~~
 
 .. list-table::
    :align: left
@@ -88,11 +88,11 @@ RS422_UART_EN_POKE
    * - [31:1]
      - RESERVED
    * - [0]
-     - | '1' : Enable channel
-       | '0' : Disable channel
+     - | '1' : Enable UART's RS422 IC
+       | '0' : Disable UART's RS422 IC
 
-RS422_UART_RATE_POKE
-~~~~~~~~~~~~~~~~~~~~
+UART_CH1_RATE_POKE
+~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :align: left
@@ -110,8 +110,8 @@ RS422_UART_RATE_POKE
        | '011' : 9600
        | '100' : 4800
 
-RS422_UART_TX_FIFO_POKE
-~~~~~~~~~~~~~~~~~~~~~~~
+UART_CH1_TX_FIFO_POKE
+~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :align: left
@@ -123,8 +123,8 @@ RS422_UART_TX_FIFO_POKE
    * - [31:0]
      - Write data
 
-RS422_UART_TX_SEND_POKE
-~~~~~~~~~~~~~~~~~~~~~~~
+UART_CH1_TX_SEND_POKE
+~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :align: left
@@ -139,8 +139,8 @@ RS422_UART_TX_SEND_POKE
      - | '1' : Start sending
        | '0' : Stop sending
 
-RS422_UART_RX_FIFO_PEEK
-~~~~~~~~~~~~~~~~~~~~~~~
+UART_CH1_RX_FIFO_PEEK
+~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :align: left
@@ -152,8 +152,8 @@ RS422_UART_RX_FIFO_PEEK
    * - [31:0]
      - Read data
 
-LVDS
-----
+UART_CH2
+--------
 
 .. list-table::
    :align: left
@@ -165,30 +165,30 @@ LVDS
      - Description
      - Default Value
    * - 0x0
-     - `LVDS_UART_EN_POKE`_
+     - `UART_CH2_EN_POKE`_
      - Enables UART channel
      - 0x00000000
    * - 0x4
-     - `LVDS_UART_RATE_POKE`_
+     - `UART_CH2_RATE_POKE`_
      - Selects UART rate
      - 0x00000002
    * - 0x8
-     - `LVDS_UART_TX_FIFO_POKE`_
+     - `UART_CH2_TX_FIFO_POKE`_
      - Buffers UART TX data
      - 0x00000000
    * - 0xC
-     - `LVDS_UART_TX_SEND_POKE`_
+     - `UART_CH2_TX_SEND_POKE`_
      - Enables UART transmission of FIFO data
      - 0x00000000
    * - 0x10
-     - `LVDS_UART_RX_FIFO_PEEK`_
+     - `UART_CH2_RX_FIFO_PEEK`_
      - Buffers UART RX data
      - 0x00000000
 
 |
 
-LVDS_UART_EN_POKE
-~~~~~~~~~~~~~~~~~~
+UART_CH2_EN_POKE
+~~~~~~~~~~~~~~~~
 
 .. list-table::
    :align: left
@@ -200,11 +200,11 @@ LVDS_UART_EN_POKE
    * - [31:1]
      - RESERVED
    * - [0]
-     - | '1' : Enable channel
-       | '0' : Disable channel
+     - | '1' : Enable UART's LVDS IC
+       | '0' : Disable UART's LVDS IC
 
-LVDS_UART_RATE_POKE
-~~~~~~~~~~~~~~~~~~~~
+UART_CH2_RATE_POKE
+~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :align: left
@@ -222,8 +222,8 @@ LVDS_UART_RATE_POKE
        | '011' : 9600
        | '100' : 4800
 
-LVDS_UART_TX_FIFO_POKE
-~~~~~~~~~~~~~~~~~~~~~~~
+UART_CH2_TX_FIFO_POKE
+~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :align: left
@@ -235,8 +235,8 @@ LVDS_UART_TX_FIFO_POKE
    * - [31:0]
      - Write data
 
-LVDS_UART_TX_SEND_POKE
-~~~~~~~~~~~~~~~~~~~~~~~
+UART_CH2_TX_SEND_POKE
+~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :align: left
@@ -251,8 +251,8 @@ LVDS_UART_TX_SEND_POKE
      - | '1' : Start sending
        | '0' : Stop sending
 
-LVDS_UART_RX_FIFO_PEEK
-~~~~~~~~~~~~~~~~~~~~~~~
+UART_CH2_RX_FIFO_PEEK
+~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :align: left

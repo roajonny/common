@@ -26,7 +26,7 @@ Low-Level / Derived (Full Descriptions)
 
 |
 
-.. req:: UART Baud Rate (RS422)
+.. req:: UART Baud Rate (CH.1)
    :id: LL_001
    :status: open
    :links: HL_001
@@ -57,7 +57,7 @@ Low-Level / Derived (Full Descriptions)
 
 |
 
-.. req:: UART Frame Format (RS422)
+.. req:: UART Frame Format (CH.1)
    :id: LL_002
    :status: open
    :links: HL_001
@@ -102,7 +102,7 @@ Low-Level / Derived (Full Descriptions)
           
 |
 
-.. req:: UART Frame Synchronization (RS422)
+.. req:: UART Frame Synchronization (CH.1)
    :id: LL_003
    :status: open
    :links: HL_001
@@ -126,7 +126,7 @@ Low-Level / Derived (Full Descriptions)
 
 |
 
-.. req:: UART Control/Status (RS422)
+.. req:: UART Control/Status (CH.1)
    :id: LL_004
    :status: open
    :links: HL_001
@@ -151,7 +151,7 @@ Low-Level / Derived (Full Descriptions)
 
 |
 
-.. req:: UART Baud Rate (LVDS)
+.. req:: UART Baud Rate (CH.2)
    :id: LL_005
    :status: closed
    :links: HL_002
@@ -182,7 +182,7 @@ Low-Level / Derived (Full Descriptions)
 
 |
 
-.. req:: UART Frame Format (LVDS)
+.. req:: UART Frame Format (CH.2)
    :id: LL_006
    :status: closed
    :links: HL_002
@@ -227,7 +227,7 @@ Low-Level / Derived (Full Descriptions)
 
 |
 
-.. req:: UART Frame Synchronization (LVDS)
+.. req:: UART Frame Synchronization (CH.2)
    :id: LL_007
    :status: closed
    :links: HL_002
@@ -251,7 +251,7 @@ Low-Level / Derived (Full Descriptions)
 
 |
 
-.. req:: UART Control/Status (LVDS)
+.. req:: UART Control/Status (CH.2)
    :id: LL_008
    :status: in-progress
    :links: HL_002

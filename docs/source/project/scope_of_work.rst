@@ -31,12 +31,12 @@ Scope of Work
            subgraph FPGA
                a[PCIe2MM Bridge] <==> b[**Memory Map**]
                subgraph **Customer Request**
-                   b[**Memory Map**] <==> c[**UART**]
-                   b[**Memory Map**] <==> d[**UART**]
+                   b[**Memory Map**] <==> c[**UART CH.1**]
+                   b[**Memory Map**] <==> d[**UART CH.2**]
                end
            end
-       c[**UART**] <==> e[UUT]
-       d[**UART**] <==> f[UUT]
+       c[**UART CH.1**] <==> e[UUT]
+       d[**UART CH.2**] <==> f[UUT]
        end
    e[RS422 IC] <==> g[UUT]
    f[LVDS IC]  <==> g[UUT]
