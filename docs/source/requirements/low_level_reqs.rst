@@ -10,17 +10,17 @@ Low-Level / Derived
       
 .. note::
    
-   *Low-Level Requirements* are most important for the design team, where the
-   technical requirements / verification criteria is established and performed
-   with traceability to the high-level (customer) requirements
+   *Low-Level Requirements* are most applicable to the design team, where the
+   technical requirements, specification, and verification criteria is
+   established and performed with traceability to the high-level (customer)
+   requirements
 
-   *Derived Requirements* could be *Key Requirements* which need to be
-   further elaborated and specified before they're useful from a digital
-   design / verification perspective
+   *Derived Requirements* could be *Key Requirements* which needed further
+   elaboration to be useful from a digital design / verification perspective
 
-   Requirements at this level typically have *Specifications*, which are the
-   black-box behavioral models that design teams design to, and verification
-   teams generate their simulation harness + test cases
+   At this level, *Specifications* are the black-box behavioral models that
+   design teams design to, and verification teams generate their simulation
+   harnesses + test cases
 
    A :doc:`traceability` is helpful for visualizing the hierarchy of
    requirements
