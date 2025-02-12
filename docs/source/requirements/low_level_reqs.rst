@@ -62,7 +62,7 @@ Low-Level / Derived (Full Descriptions)
          .. wavedrom::
 
             { "signal" : [
-                    {                    node: '.A.B............'},
+                    {                     node: '.A.B............'},
                     { "name": 'uart_ch', "wave": 'x=.=.....|.=.=.x', "data": ['start', 'data', 'parity', 'stop'] }
             ],
             edge: ['A+B T']}
@@ -119,7 +119,7 @@ Low-Level / Derived (Full Descriptions)
          .. wavedrom::
 
             { "signal" : [
-                { "name": "uart_format",      "wave": 'x|x==.......==x', "data": ['start', 'data', 'parity', 'stop'] },
+                { "name": "uart_format", "wave": 'x|x==.......==x', "data": ['start', 'data', 'parity', 'stop'] },
                 { "name": "uart_data",   "wave": 'x|10......1...x' },
                 { "name": "frame_sync",  "wave": 'x|01..........0' }
             ]}
@@ -156,7 +156,7 @@ Low-Level / Derived (Full Descriptions)
          .. wavedrom::
 
             { "signal" : [
-                { "name": "uart_format",      "wave": 'x|x==.......==x', "data": ['start', 'data', 'parity', 'stop'] },
+                { "name": "uart_format", "wave": 'x|x==.......==x', "data": ['start', 'data', 'parity', 'stop'] },
                 { "name": "uart_data",   "wave": 'x|10......1...x' },
                 { "name": "frame_sync",  "wave": 'x|01..........0' }
             ]}
@@ -229,7 +229,7 @@ Low-Level / Derived (Full Descriptions)
          .. wavedrom::
 
             { "signal" : [
-                    {                    node: '.A.B............'},
+                    {                      node: '.A.B............'},
                     { "name": 'uart_ch', "wave": 'x=.=.....|.=.=.x', "data": ['start', 'data', 'parity', 'stop'] }
             ],
             edge: ['A+B T']}
@@ -286,7 +286,7 @@ Low-Level / Derived (Full Descriptions)
          .. wavedrom::
 
             { "signal" : [
-                { "name": "uart_format",      "wave": 'x|x==.......==x', "data": ['start', 'data', 'parity', 'stop'] },
+                { "name": "uart_format", "wave": 'x|x==.......==x', "data": ['start', 'data', 'parity', 'stop'] },
                 { "name": "uart_data",   "wave": 'x|10......1...x' },
                 { "name": "frame_sync",  "wave": 'x|01..........0' }
             ]}
@@ -323,7 +323,7 @@ Low-Level / Derived (Full Descriptions)
          .. wavedrom::
 
             { "signal" : [
-                { "name": "uart_format",      "wave": 'x|x==.......==x', "data": ['start', 'data', 'parity', 'stop'] },
+                { "name": "uart_format", "wave": 'x|x==.......==x', "data": ['start', 'data', 'parity', 'stop'] },
                 { "name": "uart_data",   "wave": 'x|10......1...x' },
                 { "name": "frame_sync",  "wave": 'x|01..........0' }
             ]}
