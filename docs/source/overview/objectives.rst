@@ -9,7 +9,7 @@ benefit of the reader:
 #. To outline the pre-requisite knowledge required to leverage this template,
    and to streamline the learning process
 #. To introduce a scalable git branching methodology for effective collaboration,
-   applied to a workflow which aims to overcome the user-unfriendliness of FPGA
+   applied to a workflow which aims to overcome the user-(*un*)friendliness of FPGA
    synthesis tools
 
 Ideally, after going through the process, **one would have everything they need
