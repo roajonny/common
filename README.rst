@@ -6,25 +6,21 @@ tools/scripts used to expedite RTL development, as well
 as vimrc/bashrc templates which are useful starting 
 points for environment setup
 
-|
-
 Instructions
-------------
+============
 
 Source init_venv.sh in a linux environment to create the
 Python virtual environment and install the Python package
 dependencies needed to build the documentation
 
-|
-
-Tool list
----------
+Tool List
+=========
 
 Current list of tools:
 
 .. list-table::
    :widths: 50 20
-   :header-rows
+   :header-rows: 1
 
    * - Tool
      - Tags
