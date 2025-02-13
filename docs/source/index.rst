@@ -20,18 +20,17 @@ reasons (in no particular order of importance):
 *  It serves as a **convenient starting point template** for new FPGA projects, 
    which is intended to be simple to understand and straightforward to leverage
 
-If you've cared enough to read this far, let's jump to the learning objectives
-:doc:`objectives/overview` to get started.
-
+If you've cared enough to read this far, let's jump to the learning
+:doc:`overview/objectives` to get started.
 
 *-JR*
 
 .. toctree::
    :maxdepth: 2
-   :caption: Objectives
+   :caption: Overview
    :hidden:
 
-   objectives/overview
+   overview/objectives
 
 .. toctree::
    :maxdepth: 2
