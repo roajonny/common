@@ -10,6 +10,8 @@ produce various output formats (this example uses HTML).
 Additionally, Sphinx is extensible by other Python packages to expand it's
 functionality - these tools are summarized below:
 
+|
+
 .. list-table::
    :widths: 20 50
    :header-rows: 1
@@ -22,6 +24,8 @@ functionality - these tools are summarized below:
      - Diagrams and charting
    * - `Wavedrom <https://wavedrom.com/>`_
      - Digital timing diagrams
+
+|
 
 Additionally `Visio
 <https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software>`_ can
