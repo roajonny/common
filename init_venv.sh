@@ -4,7 +4,8 @@
 # Author(s) :       Jonathan Roa
 # 
 # Description :     Generates the python virtual environment
-#                   for working w/ Sphinx
+#                   for working w/ Sphinx and installs dependencies
+#                   for building the documentation
 # 
 # Revisions 
 # 
