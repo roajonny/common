@@ -18,11 +18,6 @@ rm -rf .venv/ && python3 -m venv .venv/
 # Activate the virtual environment
 source ./.venv/bin/activate
 
-# PyPi package installations
-# pip install sphinx
-# pip install sphinx-rtd-theme
-# pip install furo
-
 # If there is a virtual environment package file to install
 # all dependencies w/ specified versions
 pip install -r ./pyvenv_packages.txt
