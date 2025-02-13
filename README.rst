@@ -6,12 +6,15 @@ tools/scripts used to expedite RTL development, as well
 as vimrc/bashrc templates which are useful starting 
 points for environment setup
 
+|
+
 Instructions
 ============
 
-Source init_venv.sh in a linux environment to create the
-Python virtual environment and install the Python package
-dependencies needed to build the documentation
+#. Navigate to this directory in a Bash terminal and run ``source init_venv.sh``
+#. Navigate to ``docs/`` and run ``make`` to build the template documentation
+
+|
 
 List of Tools
 =============
@@ -22,7 +25,7 @@ List of Tools
 
    * - Tool
      - Tags
-   * - Documentation generator
+   * - Documentation template generator
      - Sphinx
    * - HDL module template generator
      - Verilog
