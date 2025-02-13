@@ -64,4 +64,6 @@ If you've cared enough to read this far, let's jump to the learning
    :caption: Onboarding
    :hidden:
 
-   onboarding/how_to
+   onboarding/tools_used
+   onboarding/getting_started
+   onboarding/required_tutorials

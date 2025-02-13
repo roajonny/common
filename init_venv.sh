@@ -26,4 +26,4 @@ pip install -r ./pyvenv_packages.txt
 pip list
 
 # Generate the HTML template
-sphinx-build ./docs/source ./docs/build
+# sphinx-build ./docs/source ./docs/build

@@ -1,4 +1,0 @@
-How-To
-======
-
-INSERT HOW-TO INSTRUCTIONS
