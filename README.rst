@@ -13,6 +13,8 @@ Instructions
 
 #. Navigate to this directory in a Bash terminal and run ``source init_venv.sh``
 #. Navigate to ``docs/`` and run ``make`` to build the template documentation
+#. Navigate to ``docs/build/`` and open ``index.html`` in the browser of your
+   choice to view
 
 |
 
