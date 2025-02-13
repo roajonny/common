@@ -13,10 +13,8 @@ Source init_venv.sh in a linux environment to create the
 Python virtual environment and install the Python package
 dependencies needed to build the documentation
 
-Tool List
-=========
-
-Current list of tools:
+List of Tools
+=============
 
 .. list-table::
    :widths: 50 20
