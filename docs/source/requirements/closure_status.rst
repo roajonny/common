@@ -15,5 +15,5 @@ Closure Status
 
 .. note::
    
-   Pie charts are a useful graphic to give stakeholders birds-eye visibility to
-   into the current state of development
+   Pie charts are a useful graphic to give stakeholders a bird's-eye view of
+   progress regarding requirement implementation
