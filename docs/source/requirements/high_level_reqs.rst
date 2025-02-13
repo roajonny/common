@@ -17,8 +17,8 @@ High-Level / Key
    *Key Requirements* could be requirements that are received from a system
    specification which need to be flowed down to FPGA requirements proper
 
-   Regardless of what nomenclature convention is adopted for a project, both
-   likely have flowdown to their respective complementary requirements in the
+   Regardless of what nomenclature convention is adopted for a project, either
+   one will likely have flowdown to their complementary requirements in the
    :doc:`low_level_reqs` section
 
 High-Level / Key (Full Descriptions)
