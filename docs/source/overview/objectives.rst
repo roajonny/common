@@ -4,8 +4,8 @@ Objectives
 This documentation was organized with the following objectives in mind, to the
 benefit of the reader:
 
-#. To illustrate an example template for project documentation/requirements
-   management, generated directly from this repository's source code
+#. To illustrate a starting template for an example project's
+   documentation/requirements management
 #. To outline the pre-requisite knowledge required to leverage this template,
    and to streamline the learning process
 #. To introduce a scalable git branching methodology for effective collaboration,

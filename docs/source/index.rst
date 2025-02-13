@@ -42,7 +42,7 @@ If you've cared enough to read this far, let's jump to the learning
 
 .. toctree::
    :maxdepth: 2
-   :caption: Requirements
+   :caption: Example Requirements
    :hidden:
 
    requirements/high_level_reqs
@@ -53,7 +53,7 @@ If you've cared enough to read this far, let's jump to the learning
    
 .. toctree::
    :maxdepth: 2
-   :caption: Architecture
+   :caption: Example Architecture
    :hidden:
 
    architecture/register_map
