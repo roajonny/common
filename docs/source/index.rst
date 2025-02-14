@@ -67,3 +67,4 @@ If you've cared enough to read this far, let's jump to the learning
    onboarding/tools_used
    onboarding/getting_started
    onboarding/required_tutorials
+   onboarding/git_workflow

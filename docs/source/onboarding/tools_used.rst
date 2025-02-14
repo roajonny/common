@@ -4,7 +4,7 @@ Tools Used
 This documentation is rendered using `Sphinx
 <https://www.sphinx-doc.org/en/master/>`_, which is a Python-based
 documentation generator that takes plain-text source files in `reStructuredText
-(RST) <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ to
+(rST) <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ to
 produce various output formats (this example uses HTML).
 
 Additionally, Sphinx is extensible by other Python packages to expand it's
@@ -27,7 +27,7 @@ functionality - these tools are summarized below:
 
 |
 
-Additionally `Visio
+`Visio
 <https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software>`_ can
 used for anything more complex than can be done with Mermaid, as Visio diagrams
 can be embedded as .png files.
