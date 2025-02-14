@@ -6,8 +6,6 @@ tools/scripts used to expedite RTL development, as well
 as vimrc/bashrc templates which are useful starting 
 points for environment setup
 
-|
-
 Instructions
 ============
 
@@ -15,8 +13,6 @@ Instructions
 #. Navigate to ``docs/`` and run ``make`` to build the template documentation
 #. Navigate to ``docs/build/`` and open ``index.html`` in the browser of your
    choice to view
-
-|
 
 List of Tools
 =============
