@@ -26,4 +26,4 @@ If you don't see it, navigate to where you cloned the repository and source the
 This script takes care of the virtual environment setup, and installs package
 dependencies for all the tools mentioned throughout this example documentation,
 so you can just focus on tutorials and effectively skip any steps that ask you
-to run ``pip install`` or update the ``conf.py``. 
+to run ``pip install`` or modify the ``conf.py``. 
