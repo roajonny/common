@@ -87,21 +87,19 @@ The CI/CD pipeline is configured to generate the FPGA image, the documentation,
 and run any self-checking testbench simulations (if they exist) upon merges to
 ``develop`` or ``main``.
 
-.. note::
-
-   Naturally, every merge junction on ``develop`` would be buildable
-   from an FPGA image/documentation standpoint, which makes those commits
-   stable ground to "roll back" to in the event of a debug effort
+Naturally, every merge junction on ``develop`` would be buildable from an
+FPGA image/documentation standpoint as a result of this model, which makes
+those commits stable ground to "roll back" to in the event of a debug effort.
 
 |
 
 Staying up-to-date
 ~~~~~~~~~~~~~~~~~~
 
-Feature branches are relatively long-lived, so developers should be pulling
-from ``develop`` into their ``feature`` / ``debug`` branches once a day
-(ideally in the morning) to make sure their branches stay up-to-date with
-remote, reducing the likelihood of `merge conflicts
+Feature branches are relatively long-lived, so developers should ``git fetch``
+or ``git pull`` from ``develop`` into their ``feature`` / ``debug`` branches
+once a day (ideally in the morning) to make sure their branches stay up-to-date
+with remote, reducing the likelihood of `merge conflicts
 <https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts>`_.
 
 |
