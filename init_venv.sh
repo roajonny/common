@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # File :            init_venv.sh
 # Title :           init_venv
 # 
