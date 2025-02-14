@@ -18,9 +18,9 @@ Low-Level / Derived
    *Derived Requirements* could be *Key Requirements* which needed further
    elaboration to be useful from a digital design / verification perspective
 
-   At this level, *Specifications* are the black-box behavioral models that
-   design teams design to, and verification teams generate their simulation
-   harnesses + test cases
+   At this level, *Specifications* are black-box behavioral models for
+   requirements that design teams design to, and verification teams reference
+   to build their simulation harnesses + test cases
 
    A :doc:`traceability` is helpful for visualizing the hierarchy of
    requirements

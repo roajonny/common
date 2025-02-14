@@ -30,8 +30,8 @@ a `CI/CD <https://www.redhat.com/en/topics/devops/what-is-ci-cd>`_ pipeline:
      - Yes
    * - ``develop``
      - Team Lead
-     - Branched off ``main`` at conception primary merge target for ``feature``
-       / ``debug``
+     - Branched off ``main`` at conception; primary merge target for ``feature``
+       / ``debug`` branches
      - All ``feature`` or ``debug`` merges gated behind pull requests to team
        lead
      - Yes
@@ -48,6 +48,16 @@ and run any self-checking testbench simulations (if they exist) upon merges to
 
 |
 
+Branch nomenclature
+~~~~~~~~~~~~~~~~~~~
+
+To encourage scaleability of team size, developer branches should adhere to the
+following convention for naming their branches:
+
+``<feature/debug>_<description>_<developer initials>``
+
+|
+
 Visualizing the workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -57,21 +67,21 @@ Visualizing the workflow
       commit
       branch develop
       checkout develop
-      branch feat-my_feat_jr
+      branch feature-my_feature_jr
       commit
       commit
       checkout develop
-      merge feat-my_feat_jr id: "CICD_build_1" type: HIGHLIGHT
-      branch dbg-i_messed_up_jr
+      merge feature-my_feature_jr id: "CICD_build_1" type: HIGHLIGHT
+      branch debug-made_mistake_jr
       commit
       checkout develop
-      merge dbg-i_messed_up_jr id: "CICD_build_2" type: HIGHLIGHT
+      merge debug-made_mistake_jr id: "CICD_build_2" type: HIGHLIGHT
       checkout main
       merge develop tag:"v1.0" id: "CICD_build_3" type: HIGHLIGHT
 
 .. note::
 
-   Naturally, every junction point on ``develop`` would be buildable
+   Naturally, every merge junction on ``develop`` would be buildable
    from an FPGA image/documentation standpoint, which makes those commits
    stable ground to "roll back" to in the event of a debug effort
 
