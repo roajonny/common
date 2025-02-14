@@ -48,13 +48,12 @@ and run any self-checking testbench simulations (if they exist) upon merges to
 
 |
 
-Branch nomenclature
-~~~~~~~~~~~~~~~~~~~
+Naming developer branches
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To encourage scaleability of team size, developer branches should adhere to the
-following convention for naming their branches:
-
-``<feature/debug>_<description>_<developer initials>``
+To encourage consistency that scales with team size, developer branches should
+adhere to the following convention for naming their branches:
+``<feature/debug>-<description>_<developer initials>``
 
 |
 

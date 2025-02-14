@@ -56,7 +56,7 @@ If you've cared enough to read this far, let's jump to the learning
    :caption: Example Architecture
    :hidden:
 
-   architecture/register_map
+   architecture/memory_map
    architecture/modules
 
 .. toctree::

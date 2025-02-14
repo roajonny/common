@@ -69,9 +69,8 @@ UART_CH1
 
    The registers in this template are either read-only/write-only and adopt the
    following naming convention, to be as descriptive as possible and intuitive
-   to work with from an end-user perspective:
-
-   **<BANK NAME>** _ **<FUNCTION>** _ **<POKE/PEEK>**
+   to work with from an end-user perspective: ``<BANK
+   NAME>_<FUNCTION>_<POKE/PEEK>``
 
 |
 
