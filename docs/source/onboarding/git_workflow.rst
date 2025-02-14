@@ -12,7 +12,12 @@ This workflow is somewhere between legacy-`Gitflow
 and the more modern `trunk-based development
 <https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development>`_,
 consisting of three "core" branches, two of which are build targets for
-a `CI/CD <https://www.redhat.com/en/topics/devops/what-is-ci-cd>`_ pipeline:
+a `CI/CD <https://www.redhat.com/en/topics/devops/what-is-ci-cd>`_ pipeline.
+
+|
+
+Branch descriptions/protections
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :widths: 20 20 50 50 20
@@ -42,18 +47,18 @@ a `CI/CD <https://www.redhat.com/en/topics/devops/what-is-ci-cd>`_ pipeline:
      - None
      - No
 
-The CI/CD pipeline is configured to generate the FPGA image, the documentation,
-and run any self-checking testbench simulations (if they exist) upon merges to
-``develop`` or ``main``.
-
 |
 
 Naming developer branches
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To encourage consistency that scales with team size, developer branches should
-adhere to the following convention for naming their branches:
+Developers should adhere to the following convention when naming their
+branches: 
+
 ``<feature/debug>-<description>_<developer initials>``
+
+This convention ensures the workflow's consistency and scales with the size of
+the team. 
 
 |
 
@@ -77,6 +82,10 @@ Visualizing the workflow
       merge debug-made_mistake_jr id: "CICD_build_2" type: HIGHLIGHT
       checkout main
       merge develop tag:"v1.0" id: "CICD_build_3" type: HIGHLIGHT
+
+The CI/CD pipeline is configured to generate the FPGA image, the documentation,
+and run any self-checking testbench simulations (if they exist) upon merges to
+``develop`` or ``main``.
 
 .. note::
 
