@@ -55,7 +55,6 @@ Lots of love went into this - I hope you find it useful!
    :caption: Onboarding
    :hidden:
 
-   onboarding/tools_used
    onboarding/getting_started
    onboarding/required_tutorials
    onboarding/git_workflow
