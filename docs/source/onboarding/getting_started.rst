@@ -88,4 +88,4 @@ created:
 
 |
 
-Let's ``cd sandbox`` and starting building our foundations.
+Let's navigate to the sandbox and starting building the foundation.
