@@ -1,9 +1,9 @@
 Required Tutorials
 ==================
 
-After having confirmed the virtual environment is activated and navigated to
-your sandbox, you'll want to start going through the official `Sphinx Tutorial
-<https://www.sphinx-doc.org/en/master/usage/quickstart.html>`_ as it's
+After confirming the virtual environment is active and having navigated to your
+sandbox, start going through the official `Sphinx Tutorial
+<https://www.sphinx-doc.org/en/master/usage/quickstart.html>`_, as it's
 foundational to working w/ rST and being productive with the other Sphinx
 extensions.
 

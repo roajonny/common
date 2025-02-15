@@ -88,7 +88,7 @@ conditions are met:
 
 |
 
-Visualizing the workflow
+Visualizing the topology
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. mermaid::

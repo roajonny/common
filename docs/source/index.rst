@@ -12,8 +12,8 @@ efficacy and quality-of-life of FPGA engineering.
    maintainability and mitigates the potential for siloes, or tribal knowledge
 *  It modernizes FPGA development practices by **leveraging SW tools and
    methodologies** that are effective, robust, and standard in the SW world
-*  It provides a **convenient template as a starting point for new FPGA
-   projects,** which is intended to be simple to understand and leverage
+*  It provides a **convenient template as a starting point for FPGA projects,**
+   which is intended to be simple to understand and straightforward to leverage
 
 This is to say, simply, that it **establishes an infrastructure for effortless
 collaboration, encouraging the de-centralization of knowledge and writing

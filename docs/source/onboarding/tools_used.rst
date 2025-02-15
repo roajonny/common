@@ -29,5 +29,5 @@ functionality - these tools are summarized below:
 
 `Visio
 <https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software>`_ can
-used for anything more complex than can be done with Mermaid, as Visio diagrams
-can be embedded as .png files.
+used to generate any diagrams more complex than can be done with Mermaid, as
+Visio diagrams can be embedded as .png files.

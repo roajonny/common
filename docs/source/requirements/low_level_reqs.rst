@@ -20,7 +20,7 @@ Low-Level / Derived
 
    At this level, *Specifications* are black-box behavioral models for
    requirements that design teams design to, and verification teams reference
-   to build their simulation harnesses + test cases
+   to build their simulation harnesses and test cases
 
    A :doc:`traceability` is helpful for visualizing the hierarchy of
    requirements
