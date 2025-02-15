@@ -16,5 +16,6 @@ Block Diagram
 
 .. note::
 
-   Visio/draw.io diagrams can embedded as a ``.svg`` file, which looks great on any
-   monitor because it's resolution-independent
+   This diagram was generated w/ `draw.io <https://www.drawio.com/>`_ (MS Visio
+   equivalent) and embedded as a ``.svg``, which looks great on any monitor because
+   it's resolution-independent
