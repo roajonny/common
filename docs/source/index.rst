@@ -1,36 +1,27 @@
 Motivations
 ===========
 
-Hi there!
+Hi there,
 
-I decided to put this together largely driven by the desire to improve the
-efficacy and quality-of-life of the FPGA development process, for the following
-reasons (in no particular order of importance):
+I decided to put this wiki together in the interest of improving the
+efficacy and quality-of-life of FPGA engineering.
 
-*  It promotes a **modern, Git-based FPGA workflow** presented in a wiki-format
-   that fosters collaboration by encouraging code maintainability, readability,
-   and scalability
-
-*  It demonstrates a "Docs-as-Code" philosophy, which tightly couples design
+*  It demonstrates a **"Docs-as-Code" philosophy**, which tightly couples design
    code with its documentation (as code) under the same version control system
-   to create a **single source of truth**
+*  It promotes a **scalable, Git-based FPGA workflow** that enables code
+   maintainability and mitigates the potential for siloes, or tribal knowledge
+*  It modernizes FPGA development practices by **leveraging SW tools and
+   methodologies** that are effective, robust, and standard in the SW world
+*  It provides a **convenient template as a starting point for new FPGA
+   projects,** which is intended to be simple to understand and leverage
 
-*  It attempts to push FPGA development practices forward by **leveraging SW tools
-   and methodology** that are effective, robust, and standard in the SW world
-*  It serves as a **convenient starting point template** for new FPGA projects, 
-   which is intended to be simple to understand and straightforward to leverage
+This is to say, simply, that it **establishes an infrastructure for effortless
+collaboration, encouraging the de-centralization of knowledge and writing
+high-quality documentation as part of the FPGA development process.**
 
-If you've cared enough to read this far, let's jump to the learning
-:doc:`overview/objectives` to get started.
+Lots of love went into this - I hope you find it useful! 
 
 *-JR*
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Overview
-   :hidden:
-
-   overview/objectives
 
 .. toctree::
    :maxdepth: 2

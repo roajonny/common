@@ -1,8 +1,8 @@
 Git Workflow
 ============
 
-Here's a fun `Git tutorial <://learngitbranching.js.org/>`_, as this guide
-assumes reasonable familiarity.
+Here's a fun `Git tutorial <://learngitbranching.js.org/>`_ - this guide
+assumes familiarity.
 
 Branching Model
 ---------------
@@ -16,8 +16,8 @@ a `CI/CD <https://www.redhat.com/en/topics/devops/what-is-ci-cd>`_ pipeline.
 
 |
 
-Branch descriptions/protections
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Core branches summarized
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :widths: 20 20 50 50 20
@@ -57,8 +57,34 @@ branches:
 
 ``<feature/debug>-<description>_<developer initials>``
 
-This convention ensures the workflow's consistency and scales with the size of
-the team. 
+This convention ensures the workflow's consistency and scales with team size.
+
+|
+
+Staying up-to-date
+~~~~~~~~~~~~~~~~~~
+
+Feature branches are relatively long-lived, so developers should be ``git
+pull``/``git fetch``-ing the latest changes from ``origin/develop`` to their
+local ``develop`` and merging it into their ``feature``/``debug`` branches at
+least once a day (ideally in the morning), to reduce the likelihood of `merge
+conflicts
+<https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts>`_.
+
+|
+
+Making a pull request
+~~~~~~~~~~~~~~~~~~~~~
+
+When a developer is ready, they initiate a pull request to the lead, and the
+lead merges their ``feature`` branch into ``develop`` if the following
+conditions are met:
+
+#. The developer ensured the FPGA design is in a buildable state (team lead can
+   checkout the developer's branch and confirm by running the build script for the synthesis
+   tool)
+#. The developer updated the documentation and can point to it (team lead can
+   build and view it from the developer's branch)
 
 |
 
@@ -75,44 +101,23 @@ Visualizing the workflow
       commit
       commit
       checkout develop
-      merge feature-my_feature_jr id: "CICD_build_1" type: HIGHLIGHT
+      merge feature-my_feature_jr id: "dev_CICD_build_1" type: HIGHLIGHT
       branch debug-made_mistake_jr
       commit
       checkout develop
-      merge debug-made_mistake_jr id: "CICD_build_2" type: HIGHLIGHT
+      merge debug-made_mistake_jr id: "dev_CICD_build_2" type: HIGHLIGHT
       checkout main
-      merge develop tag:"v1.0" id: "CICD_build_3" type: HIGHLIGHT
+      merge develop tag:"v1.0" id: "main_CICD_build_1" type: HIGHLIGHT
 
-The CI/CD pipeline is configured to generate the FPGA image, the documentation,
-and run any self-checking testbench simulations (if they exist) upon merges to
-``develop`` or ``main``.
+The CI/CD pipeline is configured to carry out the following tasks upon merges to
+``develop`` or ``main``:
 
-Naturally, every merge junction on ``develop`` would be buildable from an
-FPGA image/documentation standpoint as a result of this model, which makes
-those commits stable ground to "roll back" to in the event of a debug effort.
+#. Invokes the synthesis tool to run the FPGA design's build script
+#. Invokes Sphinx to generate the documentation
+#. Invokes the simulator to run self-checking simulations (if any)
 
-|
+.. note::
 
-Staying up-to-date
-~~~~~~~~~~~~~~~~~~
-
-Feature branches are relatively long-lived, so developers should ``git fetch``
-or ``git pull`` from ``develop`` into their ``feature`` / ``debug`` branches
-once a day (ideally in the morning) to make sure their branches stay up-to-date
-with remote, reducing the likelihood of `merge conflicts
-<https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts>`_.
-
-|
-
-Making a pull request
-~~~~~~~~~~~~~~~~~~~~~
-
-When a developer is ready, they initiate a pull request to the lead, and the
-lead merges their ``feature`` branch into ``develop`` if the following
-conditions are met:
-
-#. Developer ensured the FPGA design is in a buildable state (team lead can
-   checkout the developer's branch and confirm by running the build script for the synthesis
-   tool)
-#. Developer updated the documentation and can point to it (team lead can
-   build and view it from the developer's branch)
+   Naturally, every merge junction on ``develop`` is guaranteed to be buildable as
+   a result of this model, which makes those commits stable ground to "roll back"
+   to in the event of a debug effort
