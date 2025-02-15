@@ -69,7 +69,7 @@ pull``/``git fetch``-ing the latest changes from ``origin/develop`` to their
 local ``develop`` and merging it into their ``feature``/``debug`` branches at
 least once a day (ideally in the morning).
 
-Diligence in doing so reduces the likelihood of `merge conflicts
+Diligence in doing so minimizes the likelihood of `merge conflicts
 <https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts>`_ when
 making pull requests to ``develop``.
 
