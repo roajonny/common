@@ -13,3 +13,8 @@ Block Diagram
 ~~~~~~~~~~~~~
 
 .. image:: ./images/uart_arch.svg
+
+.. note::
+
+   Visio/draw.io diagrams can embedded as a ``.svg`` file, which looks great on any
+   monitor because it's resolution-independent
