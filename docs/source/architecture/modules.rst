@@ -1,12 +1,7 @@
 Design Modules
 ==============
 
-Module_0
---------
+UART
+----
 
-This is Module_0
-
-Module_1
---------
-
-This is Module_1
+.. image:: ./images/uart_arch.svg
