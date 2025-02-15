@@ -1,5 +1,5 @@
-Scope of Work
-=================
+Scope-of-Work
+=============
 
 .. tutorial-project:: HITL FPGA Implementation
    :id: T_HITL
@@ -48,6 +48,6 @@ high-level needs in requirements format.
 
 .. note::
    
-   The *Scope of Work* is a general description of what the customer is asking
+   The *Scope-of-Work* is a general description of what the customer is asking
    for - this information is captured in a Sphinx-Needs "object" and is the
    root of the :doc:`../requirements/traceability`
