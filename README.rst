@@ -1,13 +1,16 @@
 Description
 ===========
 
-This directory contains a variety of python (3.10.12)
-tools/scripts used to expedite RTL development, as well 
-as vimrc/bashrc templates which are useful starting 
-points for environment setup
+This directory provides "Docs-as-Code" infrastructure and Python3 tools for
+FPGA development.
 
-Instructions
-============
+It contains python scripts (3.10.12) for generating HDL, starting points for
+.vimrc/.bashrc to set up Linux user environment, and a "Hardware-as-Software"
+`documentation template <https://roajonny.github.io/index.html>`_ which doubles
+as a workflow tutorial/onboarding guide.
+
+Doc. Build Instructions
+=======================
 
 #. Navigate to this directory in a Bash terminal and run ``source init_venv.sh``
 #. Navigate to ``docs/`` and run ``make`` to build the template documentation
