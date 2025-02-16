@@ -64,14 +64,12 @@ This convention ensures the workflow's consistency and scales with team size.
 Mitigating merge conflicts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Feature branches are relatively long-lived, so developers should be ``git
-pull``/``git fetch``-ing the latest changes from ``origin/develop`` to their
-local ``develop`` and merging it into their ``feature``/``debug`` branches at
-least once a day (ideally in the morning).
-
-Diligence in doing so minimizes the likelihood of `merge conflicts
+Developers should be ``git pull``/``git fetch``-ing the latest changes from
+``origin/develop`` to their local ``develop`` and merging it into their
+``feature``/``debug`` branches at least once a day (ideally in the morning),
+because it minimizes the likelihood of `merge conflicts
 <https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts>`_ when
-making pull requests to ``develop``.
+issuing pull requests. 
 
 |
 
