@@ -9,8 +9,8 @@ for setting up user environments, and a `documentation template
 <https://roajonny.github.io/index.html>`_ which doubles as
 a tutorial/onboarding guide for a *hardware-as-software* workflow methodology.
 
-Doc. Build Instructions
-=======================
+Instructions
+============
 
 #. Navigate to this directory in a Bash terminal and run ``source init_venv.sh``
 #. Navigate to ``docs/`` and run ``make`` to build the template documentation
