@@ -13,6 +13,6 @@ Then, go through the following sequence of tutorials:
 #. `Mermaid Tutorial <https://mermaid.js.org/intro/getting-started.html>`_
 #. `Wavedrom Tutorial <https://wavedrom.com/tutorial.html>`_ 
 
-This will provide you with the background required to start making sense of the
-documentation template's directory structure and source files to start
-modifying it.
+This will provide you with the background required to make sense of the
+documentation template's directory structure ``ROOT_DIR/docs/`` and source
+files in ``ROOT_DIR/docs/source/`` to start modifying it.
