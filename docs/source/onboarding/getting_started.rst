@@ -31,9 +31,10 @@ functionality - these tools are summarized below:
 |
 
 `Visio
-<https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software>`_ can
-used to generate any diagrams more complex than can be done with Mermaid, as
-Visio diagrams can be embedded as .svg files.
+<https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software>`_
+/ `draw.io <https://www.drawio.com/>`_ can be used to generate any diagrams
+more complex than can be done with Mermaid, as they both support ``.svg``
+format.
 
 |
 
