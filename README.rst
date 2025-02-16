@@ -4,10 +4,10 @@ Description
 This directory provides "Docs-as-Code" infrastructure and Python3 tools for
 FPGA development.
 
-It contains python scripts (3.10.12) for generating HDL, starting points for
-.vimrc/.bashrc to set up Linux user environment, and a "Hardware-as-Software"
-`documentation template <https://roajonny.github.io/index.html>`_ which doubles
-as a workflow tutorial/onboarding guide.
+It contains python scripts (3.10.12) for generating HDL, vimrc/bashrc templates
+for setting up user environments, and a `documentation template
+<https://roajonny.github.io/index.html>`_ which doubles as
+a tutorial/onboarding guide for a *hardware-as-software* workflow methodology.
 
 Doc. Build Instructions
 =======================
