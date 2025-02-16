@@ -41,8 +41,9 @@ format.
 Activating the virtual environment
 ----------------------------------
 
-Confirm the `Python Virtual Environment <https://realpython.com/python-virtual-environments-a-primer/#what-is-a-python-virtual-environment>`_
-is active - you should see ``(.venv)`` next to your username on the command line:
+Confirm the `Python Virtual Environment
+<https://docs.python.org/3/library/venv.html>`_ is active - you should see
+``(.venv)`` next to your username on the command line:
 
 |
 
