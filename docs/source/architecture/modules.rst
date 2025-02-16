@@ -4,8 +4,8 @@ Design Modules
 UART
 ----
 
-This section describes the generic UART module which is used for both Ch.1 and
-CH.2.
+This section describes the generic UART module which is re-used for both
+channels 1 & 2.
 
 |
 
