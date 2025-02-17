@@ -10,7 +10,7 @@ documentation generator that takes plain-text source files in `reStructuredText
 (rST) <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ to
 produce various output formats (this example uses HTML).
 
-Additionally, Sphinx is extensible by other Python packages to expand it's
+Additionally, Sphinx is extensible by other Python packages to expand its
 functionality - these tools are summarized below:
 
 |
