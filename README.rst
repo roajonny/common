@@ -12,8 +12,8 @@ a tutorial/onboarding guide for a *hardware-as-software* workflow methodology.
 System Dependencies
 ===================
 
-`Python3 <https://docs.python-guide.org/starting/install3/linux/>`_ (>= *3.10.12*)
-`Graphviz <https://graphviz.org/download/>`_ (graphical rendering engine)
+* `Python3 <https://docs.python-guide.org/starting/install3/linux/>`_ (>= *3.10.12*)
+* `Graphviz <https://graphviz.org/download/>`_ (graphical rendering engine)
 
 Build Instructions
 ==================
