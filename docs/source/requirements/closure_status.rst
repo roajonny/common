@@ -3,8 +3,7 @@ Closure Status
 
 .. needpie::
    :labels: Open, In-Progress, Closed
-   :style: dark_background
-   :text_color: gray
+   :text_color: w
    :legend:
 
    type == 'req' and status == 'open'

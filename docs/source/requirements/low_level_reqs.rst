@@ -35,6 +35,7 @@ Low-Level / Derived (Full Descriptions)
    :status: open
    :links: HL_001
    :tags: comms; LL 
+   :style: discreet
 
    .. tabs::
 
@@ -84,6 +85,7 @@ Low-Level / Derived (Full Descriptions)
    :status: open
    :links: HL_001
    :tags: comms; LL
+   :style: discreet
 
    .. tabs::
 
@@ -141,6 +143,7 @@ Low-Level / Derived (Full Descriptions)
    :status: open
    :links: HL_001
    :tags: comms; LL
+   :style: discreet
 
    .. tabs::
 
@@ -177,6 +180,7 @@ Low-Level / Derived (Full Descriptions)
    :status: open
    :links: HL_001
    :tags: comms; LL
+   :style: discreet
 
    .. tabs::
 
@@ -202,6 +206,7 @@ Low-Level / Derived (Full Descriptions)
    :status: closed
    :links: HL_002
    :tags: comms; LL 
+   :style: discreet
 
    .. tabs::
 
@@ -251,6 +256,7 @@ Low-Level / Derived (Full Descriptions)
    :status: closed
    :links: HL_002
    :tags: comms; LL
+   :style: discreet
 
    .. tabs::
 
@@ -308,6 +314,7 @@ Low-Level / Derived (Full Descriptions)
    :status: closed
    :links: HL_002
    :tags: comms; LL
+   :style: discreet
 
    .. tabs::
 
@@ -344,6 +351,7 @@ Low-Level / Derived (Full Descriptions)
    :status: in-progress
    :links: HL_002
    :tags: comms; LL
+   :style: discreet
 
    .. tabs::
 

@@ -7,6 +7,7 @@ Scope-of-Work
    :layout: clean_l
    :status: na
    :collapse: true
+   :style: discreet
 
    .. tabs:: 
 
@@ -24,7 +25,6 @@ Scope-of-Work
 
 .. mermaid::
 
-   %%{init: {'theme':'dark'}}%%
    flowchart LR
        host[Host SW] <==> a[PCIe2MM Bridge]
        subgraph Custom Hardware

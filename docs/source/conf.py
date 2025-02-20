@@ -9,7 +9,7 @@
 project = 'Hardware-as-Software'
 copyright = '2025, Jonathan Roa'
 author = 'AUTHOR'
-release = '0.1'
+release = '1.0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -43,12 +43,12 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'furo'
-html_title = 'Hardware-as-Software (v0.1)'
+html_title = 'Hardware-as-Software' + '(v' + release + ')'
 #html_static_path = ['_static']
 
 # Also required by sphinx-needs to render objects properly but not explained
 # that well in the install procedure
-needs_css = 'dark.css'
+needs_css = 'modern.css'
 
 # Needs object configuration
 needs_types = [dict(directive="req", title="Requirement", prefix="R_", color="#BFD8D2", style="node"),
