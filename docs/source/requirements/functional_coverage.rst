@@ -3,7 +3,6 @@ Functional Coverage
 
 .. mermaid::
 
-   %%{init: {'theme':'dark'}}%%
    xychart-beta
        x-axis "Time" [t0, t1, t2, t3, t4]
        y-axis "Functional Coverage (%)" 0 --> 100

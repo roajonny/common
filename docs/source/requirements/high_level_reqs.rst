@@ -31,6 +31,7 @@ High-Level / Key (Full Descriptions)
    :status: open
    :links: T_HITL
    :tags: comms; HL
+   :style: discreet
 
    .. tabs::
 
@@ -51,6 +52,7 @@ High-Level / Key (Full Descriptions)
    :status: in-progress
    :links: T_HITL
    :tags: comms; HL
+   :style: discreet
 
    .. tabs::
 

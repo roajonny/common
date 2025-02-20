@@ -48,7 +48,7 @@ html_title = 'Hardware-as-Software (v0.1)'
 
 # Also required by sphinx-needs to render objects properly but not explained
 # that well in the install procedure
-needs_css = 'dark.css'
+needs_css = 'modern.css'
 
 # Needs object configuration
 needs_types = [dict(directive="req", title="Requirement", prefix="R_", color="#BFD8D2", style="node"),
