@@ -25,6 +25,7 @@ Scope-of-Work
 
 .. mermaid::
 
+   %%{init: {'theme':'neutral'}}%%
    flowchart LR
        host[Host SW] <==> a[PCIe2MM Bridge]
        subgraph Custom Hardware

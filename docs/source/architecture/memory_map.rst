@@ -134,7 +134,7 @@ UART_CH1_TX_SEND_POKE
      - Description
    * - [31:1]
      - RESERVED
-   * - [1]
+   * - [0]
      - | '1' : Start sending
        | '0' : Stop sending
 
@@ -246,7 +246,7 @@ UART_CH2_TX_SEND_POKE
      - Description
    * - [31:1]
      - RESERVED
-   * - [1]
+   * - [0]
      - | '1' : Start sending
        | '0' : Stop sending
 

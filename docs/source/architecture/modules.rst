@@ -12,8 +12,13 @@ channels 1 & 2.
 Block Diagram
 ~~~~~~~~~~~~~
 
-.. image:: ./images/uart_arch.svg
+.. image:: ./images/uart_arch_light.svg
    :align: center
+   :class: only-light
+
+.. image:: ./images/uart_arch_dark.svg
+   :align: center
+   :class: only-dark
 
 |
 
