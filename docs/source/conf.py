@@ -9,7 +9,7 @@
 project = 'Hardware-as-Software'
 copyright = '2025, Jonathan Roa'
 author = 'AUTHOR'
-release = '1.0.1'
+release = '1.0.2'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
