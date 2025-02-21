@@ -44,7 +44,8 @@ exclude_patterns = []
 
 html_theme = 'furo'
 html_title = 'Hardware-as-Software' + '(v' + release + ')'
-#html_static_path = ['_static']
+html_static_path = ['_static']
+html_css_files = ['css/custom.css']
 
 # Also required by sphinx-needs to render objects properly but not explained
 # that well in the install procedure
