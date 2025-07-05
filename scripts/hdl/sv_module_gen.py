@@ -1,5 +1,5 @@
-# File :            v_module_gen.py
-# Title :           v_module_gen
+# File :            sv_module_gen.py
+# Title :           sv_module_gen
 # 
 # Author(s) :       Jonathan Roa
 # 
@@ -11,11 +11,11 @@
 # ----------  --------------- ----------- --------------------
 # (12/03/24)  Jonathan Roa    1.0         Initial Revision
 
-f = open ("v_module_template.v", "w")
+f = open ("sv_module_template.sv", "w")
 
 # Generate the header
 f.write ("`timescale 1ns / 1ps\n\n")
-f.write ("// File :            FILE_NAME.v\n")
+f.write ("// File :            FILE_NAME.sv\n")
 f.write ("// Title :           FILE_NAME\n")
 f.write ("//\n")
 f.write ("// Author(s) :       AUTHOR\n")

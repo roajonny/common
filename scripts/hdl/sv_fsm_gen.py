@@ -1,5 +1,5 @@
-# File :            v_fsm_gen.py
-# Title :           v_fsm_gen
+# File :            sv_fsm_gen.py
+# Title :           sv_fsm_gen
 # 
 # Author(s) :       Jonathan Roa
 # 
@@ -10,8 +10,8 @@
 #                   E.G. Creating an FSM template for # of bits needed to
 #                   encode 5 states - in command line: 
 #
-#                   1) python3 v_fsm_gen.py 5
-#                   2) check v_fsm_template.txt file
+#                   1) python3 sv_fsm_gen.py 5
+#                   2) check sv_fsm_template.txt file
 #                    
 # Revisions 
 # 
@@ -34,7 +34,7 @@ if len (sys.argv) == 1:
 else:
     p_STATE_COUNT = int(sys.argv[1])
 
-f= open("v_fsm_template.txt", "w")
+f= open("sv_fsm_template.txt", "w")
 
 # Generates bits needed to represent all states
 p_STATE_BITS = ceil_log2(p_STATE_COUNT)
@@ -47,8 +47,8 @@ for i in range(2**p_STATE_BITS):
         f.write ("    localparam s_STATE" + str(i) + " = " + str(p_STATE_BITS) + "'b" + int_to_binary(i, p_STATE_BITS) + ";\n\n")
 
 # Generate current and next state registers
-f.write ("    reg  [" + str(p_STATE_BITS-1) + ":0]" + " r_STATE;\n")
-f.write ("    reg  [" + str(p_STATE_BITS-1) + ":0]" + " r_STATE_next;\n\n")
+f.write ("    reg   [" + str(p_STATE_BITS-1) + ":0]" + " r_STATE;\n")
+f.write ("    logic [" + str(p_STATE_BITS-1) + ":0]" + " l_STATE_next;\n\n")
 
 # Current state logic
 f.write ("    // 2-block FSM\n")
@@ -56,7 +56,7 @@ f.write ("    always @ (posedge i_clk) begin\n")
 f.write ("        if (!i_rst_n) begin\n")
 f.write ("            r_STATE <= s_STATE0;\n")
 f.write ("        end else begin\n")
-f.write ("            r_STATE <= r_STATE_next;\n")
+f.write ("            r_STATE <= l_STATE_next;\n")
 f.write ("        end\n")
 f.write ("    end\n\n")
 
