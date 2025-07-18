@@ -52,7 +52,7 @@ f.write ("    logic [" + str(p_STATE_BITS-1) + ":0]" + " l_STATE_next;\n\n")
 
 # Current state logic
 f.write ("    // 2-block FSM\n")
-f.write ("    always @ (posedge i_clk) begin\n")
+f.write ("    always_ff @ (posedge i_clk) begin\n")
 f.write ("        if (!i_rst_n) begin\n")
 f.write ("            r_STATE <= s_STATE0;\n")
 f.write ("        end else begin\n")
@@ -61,7 +61,7 @@ f.write ("        end\n")
 f.write ("    end\n\n")
 
 # Next state logic
-f.write ("    always @ (*) begin\n")
+f.write ("    always_comb begin\n")
 f.write ("        case (r_STATE)\n")
 
 for i in range(2**p_STATE_BITS):
