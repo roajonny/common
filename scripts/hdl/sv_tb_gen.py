@@ -151,10 +151,8 @@ tb.write ("    endtask\n\n")
 # Generate the reset strobe function
 tb.write ("    // Sets up stimulus to be applied a 1/2-cycle before the clock's rising edge\n")
 tb.write ("    task strobe_rst_n(); begin\n")
-tb.write ("        l_rst_n <= 1'b0;\n")
-tb.write ("        #(p_CLK_PERIOD*500);\n")
-tb.write ("        l_rst_n <= 1'b1;\n")
-tb.write ("        #((p_CLK_PERIOD*500)-(p_CLK_PERIOD/2));\n")
+tb.write ("        l_rst_n <= 1'b0; # (p_CLK_PERIOD*500);\n")
+tb.write ("        l_rst_n <= 1'b1; #((p_CLK_PERIOD*500)-(p_CLK_PERIOD/2));\n")
 tb.write ("    end\n")
 tb.write ("    endtask\n\n")
 
