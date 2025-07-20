@@ -75,7 +75,7 @@ f.write ("    always_comb begin\n")
 f.write ("        case (r_STATE)\n")
 
 # Print primary states w/ output logic
-for i in range(p_STATE_COUNT-1):
+for i in range(p_STATE_COUNT):
      f.write ("            s_STATE" + str(i) +": begin\n")
      for i in range(p_OUTPUT_COUNT):
         if i < p_OUTPUT_COUNT-1:
