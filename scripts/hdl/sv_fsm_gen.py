@@ -48,7 +48,7 @@ for i in range(2**p_STATE_BITS):
 
 # Generate current and next state registers
 f.write ("    reg   [" + str(p_STATE_BITS-1) + ":0]" + " r_STATE;\n")
-f.write ("    logic [" + str(p_STATE_BITS-1) + ":0]" + " l_STATE_next;\n\n")
+f.write ("    logic [" + str(p_STATE_BITS-1) + ":0]" + " l_STATE_NEXT;\n\n")
 
 # Current state logic
 f.write ("    // 2-block FSM\n")
