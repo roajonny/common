@@ -21,11 +21,11 @@ List of Tools
    * - Documentation template generator
      - Sphinx
    * - HDL module template generator
-     - Verilog
+     - System Verilog
    * - HDL testbench template generator
-     - Verilog 
+     - System Verilog 
    * - HDL FSM template generator
-     - Verilog
+     - System Verilog
    * - HDL D-FF template generator
      - Verilog
 
