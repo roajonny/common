@@ -27,7 +27,7 @@ List of Tools
    * - HDL FSM template generator
      - System Verilog / VHDL
    * - HDL D-FF template generator
-     - Verilog / VHDL
+     - System Verilog / VHDL
 
 System Dependencies
 ===================
