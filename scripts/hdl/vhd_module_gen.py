@@ -60,12 +60,13 @@ f.write ("end FILE_NAME;\n\n")
 
 f.write ("architecture FILE_NAME_arch of FILE_NAME is\n\n")
 
-f.write ("begin\n\n")
-
-# Break the module file into two sections for easier reading
 f.write ("    -- =========================\n")
 f.write ("    -- --  (A) DECLARATIONS   --\n")
 f.write ("    -- =========================\n\n")
+
+f.write ("begin\n\n")
+
+# Break the module file into two sections for easier reading
 
 f.write ("    -- =========================\n")
 f.write ("    -- --  (B) INSTANTIATES   --\n")

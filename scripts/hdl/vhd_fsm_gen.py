@@ -63,15 +63,17 @@ for i in range(p_OUTPUT_COUNT):
 # Current state logic
 f.write ("    current_state: process (i_clk, i_rst_n)\n")
 f.write ("    begin\n")
-f.write ("        if (i_rst_n = '0') then\n")
-f.write ("            r_STATE <= s_STATE0;\n")
-f.write ("        else\n")
-f.write ("            r_STATE <= l_STATE_NEXT;\n")
+f.write ("        if (rising_edge(i_clk)) then\n")
+f.write ("            if (i_rst_n = '0') then\n")
+f.write ("                r_STATE <= s_STATE0;\n")
+f.write ("            else\n")
+f.write ("                r_STATE <= l_STATE_NEXT;\n")
+f.write ("            end if;\n")
 f.write ("        end if;\n")
 f.write ("    end process current_state;\n\n")
 
 # Next state logic
-f.write ("    next_state_and_output: process(all)\n")
+f.write ("    next_state_output: process(all)\n")
 f.write ("    begin\n")
 f.write ("        case (r_STATE) is\n")
 
@@ -92,6 +94,6 @@ for i in range(p_OUTPUT_COUNT):
     else:
         f.write ("                l_OUTPUT_" + str(i) + " <= '0';\n\n")
 f.write ("        end case;\n")
-f.write ("    end process next_state_and_output;\n")
+f.write ("    end process next_state_output;\n")
 
 f.close()
