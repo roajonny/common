@@ -22,12 +22,12 @@ List of Tools
      - Sphinx
    * - HDL module template generator
      - System Verilog / VHDL
-   * - HDL testbench template generator
-     - System Verilog 
    * - HDL FSM template generator
      - System Verilog / VHDL
    * - HDL D-FF template generator
      - System Verilog / VHDL
+   * - HDL testbench template generator
+     - System Verilog 
 
 System Dependencies
 ===================
